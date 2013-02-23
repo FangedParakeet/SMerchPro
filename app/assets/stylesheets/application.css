@@ -1,0 +1,154 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ /*** RESET ***/
+
+ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+ small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, hr, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+   background: transparent;
+   border: 0;
+   font-size: 100%;
+   margin: 0;
+   outline: 0;
+   padding: 0;
+   vertical-align: baseline;
+ }
+ body {
+   line-height: 1;
+ }
+ a {
+   text-decoration: none;
+ }
+ *:focus {
+   outline: 1;
+ }
+ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+   display: block;
+ }
+ nav ul {
+   list-style: none;
+ }
+ ul {
+   list-style: none;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after, q:before, q:after {
+   content: "";
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ input, select {
+   vertical-align: middle;
+ }
+ 
+ .clear {
+     clear: both;
+     height: 0;
+ }
+
+
+/*** GLOBAL ***/
+
+.header {
+    width: 100%;
+    padding: 30px 0px 10px 0px;
+    margin: 20px 0px 10px 0px;
+    text-align: center; 
+    font-size: 250%;
+}
+
+.contact {
+    width: 60%;
+    padding: 5px 0px 30px 0px;
+    margin: 0px auto;
+    font-size: 120%;
+    
+}
+
+.contact ul li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.links {
+    width: 90%;
+    padding: 20px 0px 20px 0px;
+    margin: 10px auto;
+    font-size: 150%;
+}
+
+.links ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.intro {
+    width: 80%;
+    padding: 60px 50px 20px 50px;
+    margin: 20px auto;
+    font-size: 500%;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    padding: 30px 50px 20px 50px;
+    margin: 20px auto;
+    font-size: 100%;
+}
+
+.intro span { 
+    width: 700px; 
+    height: 100px;
+    margin: 25px; 
+    opacity: 0.5;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1))); 
+}
+
+.pre {
+    color: transparent;
+    line-height: 0px;
+} 
+
+.post {
+    line-height: 100px;
+    color: green;   
+}
+
+.intro span:hover { 
+    opacity: 1; 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); 
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+}
+
+.container p {
+    margin: 10px;
+}
+
+.underline {
+    width: 100%;
+    text-align: center;
+}
