@@ -2,7 +2,7 @@ class SMerchPro.Views.PagesProj extends Backbone.View
   
   tagName: 'div'
   
-  className: 'proj_info'
+  className: 'proj_info well'
   
   template: JST['pages/proj']
       

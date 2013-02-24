@@ -19,14 +19,13 @@
    background: transparent;
    border: 0;
    font-size: 100%;
+   color: white;
    margin: 0;
    outline: 0;
    padding: 0;
    vertical-align: baseline;
  }
- body {
-   line-height: 1;
- }
+
  a {
    text-decoration: none;
  }
@@ -61,9 +60,26 @@
      clear: both;
      height: 0;
  }
+ 
+ body {
+   line-height: 1;
+   	background-attachment: fixed;
+	background-image: url('black wallpaper.png');
+	background-repeat: no-repeat;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: auto;
+	margin: 0;
+	padding: 0;
+ }
+  
 
 
 /*** GLOBAL ***/
+
 
 .header {
     width: 100%;
@@ -100,19 +116,33 @@
     text-align: center;
 }
 
+.links ul li button { 
+    margin: 25px; 
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; /*Reflection*/ 
+} 
+
+.unselected {
+    opacity: 0.8; 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));     
+}
+
+.links ul li button:hover { 
+    opacity: 1; /*Reflection*/ 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+}
+
+
 .intro {
     width: 80%;
     padding: 60px 50px 20px 50px;
     margin: 20px auto;
     font-size: 500%;
     text-align: center;
-}
-
-.container {
-    width: 80%;
-    padding: 30px 50px 20px 50px;
-    margin: 20px auto;
-    font-size: 100%;
 }
 
 .intro span { 
@@ -144,6 +174,14 @@
     box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
 }
 
+.selected {
+    opacity: 1; /*Reflection*/ 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+}
+
 .content {
     width: 90%;
     margin: 0px auto;
@@ -157,4 +195,24 @@
 .barrier {
     width: 100%;
     text-align: center;
+}
+
+.about_info.well {
+   	background-color: rgba(180,40,40,0.3);
+   	border: none;
+}
+
+.exp_info.well {
+    background-color:rgba(36,206,37,0.3);
+    border: none;
+}
+
+.proj_info.well {
+    background-color:rgba(52,21,229,0.3);
+    border: none;
+}
+
+.skills_info.well {
+    background-color:rgba(63,237,41,0.3);
+    border: none;
 }

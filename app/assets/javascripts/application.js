@@ -22,4 +22,7 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree .
-
+$('.container').scroll(function() {
+    var x = $('body').scrollTop();
+    $(this).css('background-position', '0% ' + parseInt(-x / 10) + 'px');
+});
