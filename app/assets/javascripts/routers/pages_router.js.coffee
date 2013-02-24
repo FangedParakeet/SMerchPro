@@ -10,4 +10,4 @@ class SMerchPro.Routers.Pages extends Backbone.Router
     spans = document.getElementsByTagName("span")
     setTimeout ( -> $(spans[0]).removeClass("pre").addClass("post")), 200
     setTimeout ( -> $(spans[1]).removeClass("pre").addClass("post")), 800
-    setTimeout ( -> $(spans[2]).removeClass("pre").addClass("post")), 1400    
+    setTimeout ( -> $(spans[2]).removeClass("pre").addClass("post")), 1400   
