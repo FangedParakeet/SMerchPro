@@ -6,7 +6,6 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   
   events:
     'click #about': 'about'
-    'click #edu': 'edu'
     'click #exp': 'exp'
     'click #proj': 'proj'
     'click #skills': 'skills'
@@ -35,28 +34,7 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
           $('.content').slideToggle(600)
       else
         $('.content').slideToggle(600)
-      
-  edu: ->
-    spans = document.getElementsByTagName("span")
-    view  = new SMerchPro.Views.PagesEdu()
-    if $(spans[0]).attr('class') == "post"
-      $('.content').html(view.render().el)
-      $(spans[2]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[0]).removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.content').slideToggle(600)), 1800
-    else
-      unless document.getElementsByClassName("edu_info").length
-        unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(600)
-          $('.content').html(view.render().el)
-          setTimeout ( -> $('.content').slideToggle(600)), 1200
-        else
-          $('.content').html(view.render().el)
-          $('.content').slideToggle(600)
-      else
-        $('.content').slideToggle(600)
-        
+              
   exp: ->
     spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesExp()
