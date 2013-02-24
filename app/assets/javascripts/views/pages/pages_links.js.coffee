@@ -26,9 +26,15 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
       unless document.getElementsByClassName("about_info").length
+        unless $('.content').css('display') == 'none'
+          $('.content').slideToggle(600)
+          $('.content').html(view.render().el)
+          setTimeout ( -> $('.content').slideToggle(600)), 1200
+        else
+          $('.content').html(view.render().el)
+          $('.content').slideToggle(600)
+      else
         $('.content').slideToggle(600)
-        $('.content').html(view.render().el)
-        setTimeout ( -> $('.content').slideToggle(600)), 1200
       
   edu: ->
     spans = document.getElementsByTagName("span")
@@ -41,9 +47,15 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
       unless document.getElementsByClassName("edu_info").length
+        unless $('.content').css('display') == 'none'
+          $('.content').slideToggle(600)
+          $('.content').html(view.render().el)
+          setTimeout ( -> $('.content').slideToggle(600)), 1200
+        else
+          $('.content').html(view.render().el)
+          $('.content').slideToggle(600)
+      else
         $('.content').slideToggle(600)
-        $('.content').html(view.render().el)
-        setTimeout ( -> $('.content').slideToggle(600)), 1200
         
   exp: ->
     spans = document.getElementsByTagName("span")
@@ -56,9 +68,15 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
       unless document.getElementsByClassName("exp_info").length
+        unless $('content').css('display') == 'none'
+          $('.content').slideToggle(600)
+          $('.content').html(view.render().el)
+          setTimeout ( -> $('.content').slideToggle(600)), 1200
+        else
+          $('.content').html(view.render().el)
+          $('.content').slideToggle(600)
+      else
         $('.content').slideToggle(600)
-        $('.content').html(view.render().el)
-        setTimeout ( -> $('.content').slideToggle(600)), 1200
         
   proj: ->
     spans = document.getElementsByTagName("span")
@@ -71,9 +89,15 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
       unless document.getElementsByClassName("proj_info").length
+        unless $('.content').css('display') == 'none'
+          $('.content').slideToggle(600)
+          $('.content').html(view.render().el)
+          setTimeout ( -> $('.content').slideToggle(600)), 1200
+        else
+          $('.content').html(view.render().el)
+          $('.content').slideToggle(600)
+      else
         $('.content').slideToggle(600)
-        $('.content').html(view.render().el)
-        setTimeout ( -> $('.content').slideToggle(600)), 1200
         
   skills: ->
     spans = document.getElementsByTagName("span")
@@ -86,9 +110,15 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
       unless document.getElementsByClassName("skills_info").length
+        unless $('.content').css('display') == 'none'
+          $('.content').slideToggle(600)
+          $('.content').html(view.render().el)
+          setTimeout ( -> $('.content').slideToggle(600)), 1200
+        else
+          $('.content').html(view.render().el)
+          $('.content').slideToggle(600)
+      else
         $('.content').slideToggle(600)
-        $('.content').html(view.render().el)
-        setTimeout ( -> $('.content').slideToggle(600)), 1200
     
     
     
