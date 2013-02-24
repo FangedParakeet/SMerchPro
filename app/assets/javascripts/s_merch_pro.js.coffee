@@ -6,6 +6,6 @@ window.SMerchPro =
   initialize: ->
     new SMerchPro.Routers.Pages()
     Backbone.history.start()
-
+    
 $(document).ready ->
   SMerchPro.initialize()

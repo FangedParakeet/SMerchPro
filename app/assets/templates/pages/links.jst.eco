@@ -1,0 +1,7 @@
+ <ul>
+   <li><button class="btn btn-large" id="about">About</button></li>
+   <li><button class="btn btn-large" id ="edu">Education</button></li>
+   <li><button class="btn btn-large" id="exp">Experience</button></li>
+   <li><button class="btn btn-large" id="proj">Recent Project</button></li>
+   <li><button class="btn btn-large" id="skills">Skills</button></li>
+ </ul>

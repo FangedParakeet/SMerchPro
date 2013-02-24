@@ -1,8 +1,13 @@
 class SMerchPro.Routers.Pages extends Backbone.Router
 	routes:
     '': 'index'
+    'about': 'about'
 		
 	index: ->
-	  for elt in ["learn", "build", "grow"]
-	    view = new SMerchPro.Views.PagesIndex(collection: elt)
-	    $('.intro').append(view.render().el)	  
+    intro_view = new SMerchPro.Views.PagesIntro()
+    links_view = new SMerchPro.Views.PagesLinks()
+    $('.intro').append(intro_view.render().el)
+    $('.links').append(links_view.render().el)
+	    
+	about: ->
+	  alert "Hopefully"
