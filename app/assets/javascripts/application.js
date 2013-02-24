@@ -23,18 +23,3 @@
 //= require_tree ./routers
 //= require_tree .
 
-$(document).ready(function() {
-  var spans = document.getElementsByTagName("span");
-  setTimeout(function() { 
-    $(spans[0]).removeClass("pre");
-    $(spans[0]).addClass("post"); 
-  }, 200);
-  setTimeout(function() { 
-    $(spans[1]).removeClass("pre"); 
-    $(spans[1]).addClass("post"); 
-  }, 800);
-  setTimeout(function() { 
-    $(spans[2]).removeClass("pre"); 
-    $(spans[2]).addClass("post"); 
-  }, 1400);
-});

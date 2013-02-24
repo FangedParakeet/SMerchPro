@@ -89,7 +89,7 @@
 
 .links {
     width: 90%;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 70px 0px;
     margin: 10px auto;
     font-size: 150%;
 }
@@ -148,7 +148,7 @@
     margin: 10px;
 }
 
-.underline {
+.barrier {
     width: 100%;
     text-align: center;
 }
