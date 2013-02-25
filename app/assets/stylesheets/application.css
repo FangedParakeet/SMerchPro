@@ -102,7 +102,19 @@
     float: left;
     width: 33.33%;
     text-align: center;
+    color: brown;
+    margin: 0px auto;
 }
+
+.contact ul li a {
+    color: #CA0000;
+}
+
+.contact ul li a:hover {
+    color: #58B1DC;
+}
+
+.contact 
 
 .links {
     width: 90%;
@@ -114,6 +126,8 @@
 .links ul li {
     float: left;
     width: 25%;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -246,7 +260,7 @@
 }
 
 .barrier-top {
-    padding: 0px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
     width: 100%;
     text-align: center;
 }
@@ -254,6 +268,7 @@
 .site_info {
     width: 60%;
     margin: 0px auto;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -261,7 +276,6 @@
     width: 90%;
     margin: 0px auto;
     padding: 20px 0px 0px 0px;
-    overflow: auto;
     text-align: center;
 }
 
