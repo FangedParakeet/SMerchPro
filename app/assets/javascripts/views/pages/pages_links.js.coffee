@@ -17,16 +17,16 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   about: ->
     spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesAbout()
-    if $(spans[0]).attr('class') == "post"
+    if $(spans[1]).attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[2]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[0]).removeClass("post").addClass("pre")), 1200
+      $(spans[3]).removeClass("post").addClass("pre")
+      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
-      unless document.getElementsByClassName("about_info").length
+      if /unselected/.test($('#about').attr('class'))
         unless $('.content').css('display') == 'none'
           $('.content').slideToggle(600)
           setTimeout ( -> $('.content').html(view.render().el)), 600
@@ -44,16 +44,16 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   exp: ->
     spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesExp()
-    if $(spans[0]).attr('class') == "post"
+    if $(spans[1]).attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[2]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[0]).removeClass("post").addClass("pre")), 1200
+      $(spans[3]).removeClass("post").addClass("pre")
+      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
-      unless document.getElementsByClassName("exp_info").length
+      if /unselected/.test($('#exp').attr('class'))
         unless $('.content').css('display') == 'none'
           $('.content').slideToggle(600)
           setTimeout ( -> $('.content').html(view.render().el)), 600
@@ -71,16 +71,16 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   proj: ->
     spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesProj()
-    if $(spans[0]).attr('class') == "post"
+    if $(spans[1]).attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[2]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[0]).removeClass("post").addClass("pre")), 1200
+      $(spans[3]).removeClass("post").addClass("pre")
+      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
-      unless document.getElementsByClassName("proj_info").length
+      if /unselected/.test($('#proj').attr('class'))
         unless $('.content').css('display') == 'none'
           $('.content').slideToggle(600)
           setTimeout ( -> $('.content').html(view.render().el)), 600
@@ -98,16 +98,16 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   skills: ->
     spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesSkills()
-    if $(spans[0]).attr('class') == "post"
+    if $(spans[1]).attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[2]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[0]).removeClass("post").addClass("pre")), 1200
+      $(spans[3]).removeClass("post").addClass("pre")
+      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
     else
-      unless document.getElementsByClassName("skills_info").length
+      if /unselected/.test($('#skills').attr('class'))
         unless $('.content').css('display') == 'none'
           $('.content').slideToggle(600)
           setTimeout ( -> $('.content').html(view.render().el)), 600

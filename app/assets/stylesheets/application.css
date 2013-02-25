@@ -123,11 +123,6 @@
     -o-transition: all 0.5s ease; /*Reflection*/ 
 } 
 
-.unselected {
-    opacity: 0.8; 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));     
-}
-
 .links ul li button:hover { 
     opacity: 1; /*Reflection*/ 
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
@@ -136,6 +131,18 @@
     box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
 }
 
+.unselected {
+    opacity: 0.8; 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));     
+}
+
+.selected {
+    opacity: 1; /*Reflection*/ 
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
+}
 
 .intro {
     width: 80%;
@@ -174,17 +181,10 @@
     box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
 }
 
-.selected {
-    opacity: 1; /*Reflection*/ 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
-    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
-    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
-    box-shadow: 0px 0px 20px rgba(255,255,255,0.8); 
-}
-
 .content {
     width: 90%;
     margin: 0px auto;
+    overflow: auto;
     display: none;
 }
 
@@ -192,27 +192,87 @@
     margin: 10px;
 }
 
-.barrier {
-    width: 100%;
-    text-align: center;
-}
-
 .about_info.well {
    	background-color: rgba(180,40,40,0.3);
    	border: none;
+   	overflow: auto;
+    height: 100%;
 }
 
 .exp_info.well {
     background-color:rgba(36,206,37,0.3);
     border: none;
+    overflow: auto;
+    height: 100%;
 }
 
 .proj_info.well {
     background-color:rgba(52,21,229,0.3);
     border: none;
+    overflow: auto;
+    height: 100%;
 }
 
 .skills_info.well {
     background-color:rgba(63,237,41,0.3);
     border: none;
+    overflow: auto;
+    height: 100%;
 }
+
+.text {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.pics {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.pics img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.barrier {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.site_info {
+    width: 90%;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.site_info_header {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0px 30px 0px;
+    overflow: auto;
+    text-align: center;
+}
+
+.info_link {
+    margin: 0px auto;
+    color: green;
+}
+
+.info_link:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.info_link:active {
+    color: purple;
+}
+
+.info_text {
+    display: none;
+}
+
+
