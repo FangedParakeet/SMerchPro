@@ -14,13 +14,12 @@ class SMerchPro.Views.PagesInfo extends Backbone.View
     this
     
   about: ->
-    spans = document.getElementsByTagName("span")
     view = new SMerchPro.Views.PagesAboutSite()
-    if $(spans[1]).attr('class') == "post"
+    if $('#learn').attr('class') == "post"
       $('.info_text').html(view.render().el)
-      $(spans[3]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
+      $('#build').removeClass("post").addClass("pre")
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('.info_text').slideToggle()), 1800
     else

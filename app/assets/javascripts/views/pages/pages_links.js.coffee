@@ -15,13 +15,12 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
     this
     
   about: ->
-    spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesAbout()
-    if $(spans[1]).attr('class') == "post"
+    if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[3]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
+      $('#build').removeClass("post").addClass("pre")
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
@@ -42,13 +41,12 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
         $('.content').slideToggle(600)
               
   exp: ->
-    spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesExp()
-    if $(spans[1]).attr('class') == "post"
+    if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[3]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
+      $('#build').removeClass("post").addClass("pre")
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
@@ -69,13 +67,12 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
         $('.content').slideToggle(600)
         
   proj: ->
-    spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesProj()
-    if $(spans[1]).attr('class') == "post"
+    if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[3]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
+      $('#build').removeClass("post").addClass("pre")
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800
@@ -96,13 +93,12 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
         $('.content').slideToggle(600)
         
   skills: ->
-    spans = document.getElementsByTagName("span")
     view  = new SMerchPro.Views.PagesSkills()
-    if $(spans[1]).attr('class') == "post"
+    if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
-      $(spans[3]).removeClass("post").addClass("pre")
-      setTimeout ( -> $(spans[2]).removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $(spans[1]).removeClass("post").addClass("pre")), 1200
+      $('#build').removeClass("post").addClass("pre")
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
       setTimeout ( -> $('.intro').hide()), 1800
       setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 1800
       setTimeout ( -> $('.content').slideToggle(600)), 1800

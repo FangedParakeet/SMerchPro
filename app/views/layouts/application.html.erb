@@ -8,7 +8,7 @@
 </head>
 <body>
 		<div class="header">
-			<%= link_to "Samir Merchant", root_url %>
+			<%= link_to (image_tag 'samir merchant.png',size: '800x200'), root_url %>
 		</div>
 		<div class="contact">
 			<ul>
@@ -19,12 +19,19 @@
 		</div>
 		<div class="clear"></div>
 		<div class="links"></div>
+		<div class="barrier-top">
+			________________________________________
+			<%= image_tag 'barrier.png', width: '300' %>
+			________________________________________
+		</div>
+		<div class="intro"></div>
 		<div class="content"></div>
-		<div class="barrier">
-			____________________________________________________________
+		<div class="barrier-bottom">
+			______________________________________________
+			<%= image_tag 'barrier bot.png', width: '220' %>
+			______________________________________________
 		</div>
 		<div class="site_info"></div>
 		<div class="clear"></div>
-		<div class="intro"></div>
 </body>
 </html>

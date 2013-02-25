@@ -1,6 +1,6 @@
  <ul>
-   <li><button class="btn btn-large unselected" id="about">About</button></li>
-   <li><button class="btn btn-large unselected" id="exp">Background</button></li>
-   <li><button class="btn btn-large unselected" id="proj">Portfolio</button></li>
-   <li><button class="btn btn-large unselected" id="skills">Misc</button></li>
+   <li><img src="/assets/about.png" id="about" class="unselected" width="150"></li>
+   <li><img src="/assets/background.png" id="exp" class="unselected" width="300"></li>
+   <li><img src="/assets/portfolio.png" id="proj" class="unselected" width="250"></li>
+   <li><img src="/assets/misc.png" id="skills" class="unselected" width="140"></li>
  </ul>
