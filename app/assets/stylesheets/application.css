@@ -299,4 +299,6 @@
     padding-top: 10px;
 }
 
-
+.italics {
+    font-style: italic;
+}
