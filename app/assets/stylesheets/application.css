@@ -266,6 +266,39 @@
 .picsntext {
     width: 100%;
     float: left;
+    padding-top: 20px;
+}
+
+.pair {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.preview {
+    width: 65%;
+    height: 100%;
+    border-radius: 15px; 
+    float: left;
+    display: inline-block;
+    -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;     
+}
+
+
+.preview:hover {
+    -webkit-box-shadow: 5px 5px 5px #B4ACA7;
+          box-shadow: 5px 5px 5px #B4ACA7;
+}
+
+
+.descr {
+    width: 30%;
+    height: 100%;
+    float: left;
+    
 }
 
 .barrier-bottom {
@@ -326,6 +359,14 @@
 .dalai {
     font-size: 1.6em;
     line-height: 160%;
+}
+
+.port {
+    font-size: 1.4em;
+    line-height: 160%;
+    margin: 0px auto;
+    width: 95%;
+    text-align: right;
 }
 
 .main_body {

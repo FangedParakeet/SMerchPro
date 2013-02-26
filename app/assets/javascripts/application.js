@@ -29,6 +29,7 @@ $(document).ready(function() {
         $('#slideshow :first-child').fadeOut()
            .next('img').fadeIn()
            .end().appendTo('#slideshow');}, 
-        3000);
-  });
+        5000);
+  });  
 })
+
