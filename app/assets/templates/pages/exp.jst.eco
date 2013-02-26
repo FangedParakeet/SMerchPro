@@ -3,7 +3,7 @@
 	  <p><img src="/assets/chicago.jpg" alt="An average day in Chicago"></p>
 		<p>
 			<div id="slideshow">
-				<img src="/assets/uchicago campus.jpg" alt="University of Chicago" id="shown">
+				<img src="/assets/uchicago campus.jpg" alt="University of Chicago">
 				<img src="/assets/me codeacademy.jpg" alt="Code Academy" id="hidden">
 				<img src="/assets/1871.jpg" alt="1871" id="hidden">
 			</div>
@@ -57,6 +57,19 @@
 			<li>Git</li>
 			<li>Heroku</li>
 			<li>Unix</li>
+		</ul>
+	</p>
+</div>
+<div class="skills_list">
+	<p class="main_body">
+		<span class="dalai"><strong>APIs</strong></span>
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>YouTube</li>
+			<li>Google Maps</li>
+			<li>Reddit</li>
+			<li>GeoNames</li>
 		</ul>
 	</p>
 </div>

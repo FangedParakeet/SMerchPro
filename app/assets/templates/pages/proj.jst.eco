@@ -7,14 +7,18 @@
 		</div>
 		<div class="descr">
 			<p class="dalai"><strong><a href="http://sinistereo.fm" target="blank">Sinistereo</a></strong></p>
-			<p class="main_body">Music streaming blah blah blah.</p>
+			<p class="main_body">This a music streaming site to connect indie bands with consumers of up and coming music.</p>
+			<p class="main_body">A <strong>Ruby on Rails</strong> app with a heavy client-side <strong>Javascript</strong> and <strong>AJAX</strong> interface. The site uses storage on <strong>Amazon's S3 cloud</strong> and is hosted via <strong>Heroku</strong>.</p>
+			<p class="main_body">Currently live at <a href="http://sinistereo.fm" target="blank">sinistereo.fm</a></p>
 		</div>
 		<div class="clear"></div>
 	</div>
 	<div class="pair">
 		<div class="descr">
 			<p class="dalai"><strong><a href="http://hashpage.me" target="blank">HashPage</a></strong></p>
-			<p class="main_body">Twitter profile hashtags yadda yadda whatever</p>
+			<p class="main_body">HashPage allows a user to create a clean profile page from one's Twitter account, where only Tweets categorised by various selected hashtags and phrases are shown.</p>
+			<p class="main_body">Another full <strong>Ruby on Rails</strong> app, relying on Twitter's <strong>REST API</strong>. I worked predominantly on <strong>sessions</strong>, <strong>reducing API calls</strong>, and <strong>modeling</strong>.</p>
+			<p class="main_body">Not currently live at <a href="http://hashpage.me" target="blank">hashpage.me</a></p>
 		</div>
 		<div class="preview grow">
 			<a href="http://hashpage.me" target="blank"><img src="/assets/hashpage.png" alt="HashPage.me"></a>
@@ -27,7 +31,9 @@
 		</div>
 		<div class="descr">
 			<p class="dalai"><strong><a href="http://subredditshuffler.herokuapp.com" target="blank">Subreddit Shuffler</a></strong></p>
-			<p class="main_body">Reddit blah blah circlejerk</p>
+			<p class="main_body">App allowing users to shuffle together various audio and video content from selected subreddits from Reddit, the self-proclaimed front page of the internet.</p>
+			<p class="main_body"><strong>Ruby on Rails</strong> on the back-end, but uses a combination of <strong>Javascript</strong>, <strong>AJAX</strong>, <strong>jQuery</strong>, and YouTube's own <strong>JS/SWFObject API</strong> to display content via <strong>Reddit's own API</strong>. Hosted via <strong>Heroku</strong>.</p>
+			<p class="main_body">Live at <a href="subredditshuffler.herokuapp.com" target="blank">subredditshuffler.herokuapp.com</a>. Currently functional for YouTube videos: Vimeo, Soundcloud, & Bandcamp coming soon...</p>
 		</div>
 		<div class="clear"></div>
 	</div>

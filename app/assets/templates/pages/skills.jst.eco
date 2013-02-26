@@ -1,10 +1,53 @@
-<p>Sed fermentum est nec elit commodo accumsan. In sed velit ante. Duis blandit tortor eget urna pharetra sodales. Morbi mattis posuere lectus, sed vestibulum velit sagittis nec. Integer ac enim nisi. Vestibulum posuere ipsum in arcu interdum pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ligula felis, rutrum quis scelerisque vel, imperdiet non velit. Suspendisse quis justo nulla. Praesent vestibulum risus eget est pretium quis eleifend arcu rhoncus. Ut malesuada, purus eu dapibus dignissim, metus felis adipiscing ligula, eget malesuada nibh tellus vel enim. Pellentesque molestie, nunc eget viverra fermentum, lacus tortor eleifend enim, et ultrices arcu purus non metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</p>
-<p>Quisque eros urna, aliquam a elementum a, viverra cursus tellus. Aenean id iaculis libero. Aliquam posuere dui eu neque hendrerit vulputate. Donec vitae risus sapien. Nulla euismod dui non sem consequat eleifend. Cras et ante nibh, eu facilisis quam. Ut mauris felis, porta non lobortis eu, vehicula non purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed bibendum velit sed erat dapibus rhoncus. Morbi nulla augue, suscipit id consectetur at, aliquet id nisl. Vivamus velit est, pretium non porttitor nec, fermentum quis metus.
-</p>
-<p>Suspendisse ut consequat massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent ac lectus id dui semper varius eget eu felis. Pellentesque at ultricies dolor. Proin pellentesque pharetra gravida. Quisque interdum venenatis eros vitae porttitor. Integer nunc sapien, sollicitudin ac consectetur ac, sollicitudin a turpis. Nulla posuere tempus purus, quis molestie nibh consectetur a. Nam vestibulum consequat viverra. Praesent ut arcu diam. Quisque ac nisl eget ipsum sollicitudin auctor. Nullam nulla metus, pharetra non iaculis ut, congue quis ante. Proin volutpat aliquam metus, at feugiat ante congue sit amet. Etiam mollis molestie nunc, eget rutrum nunc varius nec. Vivamus pharetra felis tincidunt dolor placerat nec dignissim dolor venenatis. Morbi elit nibh, consequat et molestie eget, sagittis in neque.
-</p>
-<p>Aliquam ut condimentum est. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin nec convallis ipsum. Etiam tristique sem eget dui tempor sit amet egestas leo ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec condimentum felis purus. Nulla facilisi. Etiam scelerisque aliquet porta. Sed leo lacus, mattis non imperdiet vel, laoreet vel ligula. Nunc tincidunt aliquam nisi quis luctus. Etiam feugiat blandit quam id pellentesque. Donec leo tortor, vulputate eu sodales quis, rutrum at massa. Suspendisse ullamcorper enim id quam tincidunt quis consectetur mi ultrices.
-</p>
-<p>Aenean ut aliquet ligula. Donec eros enim, consequat non laoreet non, consectetur sit amet dui. Aenean in egestas nulla. Quisque sed porttitor turpis. Phasellus nunc nisi, vestibulum sed sodales eu, tristique in lacus. Praesent quis nisi est, sed ultricies enim. Suspendisse egestas sodales lectus, id dictum ligula gravida non. Phasellus sagittis ante sed orci pellentesque tristique. Maecenas faucibus ultricies risus, non cursus quam luctus sit amet. Quisque egestas nisl sit amet urna pellentesque quis scelerisque ipsum bibendum. Nam quis justo nisi, ut iaculis metus. Suspendisse potenti. Fusce commodo nisl quis nisl pharetra dapibus. Vestibulum vestibulum elementum pellentesque.
-</p>
+<div class="picsntext">
+  <p class="niet"><span class="italics"><strong>"I love scrapes. They are the only things that are never serious."</strong></span><br />--Oscar Wilde</p>
+	<div class="image_wrapper">
+		<div id="slideshow2">
+			<img src="/assets/elbo.jpg" alt="Live at Chicago's Elbo Room" width="700">
+			<img src="/assets/calcutta.jpg" alt="Argentina v. Venezuela" width="700" id="hidden">
+			<img src="/assets/studio.jpg" alt="In studio" width="1100" id="hidden">
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="half">
+		<p class="dalai"><strong>Other Powers</strong></p>
+		<ul>
+			<li><strong>Graphical Skills</strong>
+				<ul>
+					<li>Experience with Adobe Photoshop and the more unwieldy, yet open source, GIMP</li>
+					<li>Had to make all the icons on this page!</li>
+				</ul>
+			</li>
+			<li><strong>Languages</strong>
+				<ul>
+					<li><italics>French:</italics> competent conversationally</li>
+					<li><italics>Flemish:</italics> limited competency</li>
+					<li><italics>Hindi:</italics> incompetent</li>
+				</ul></li>
+		</ul>
+	</div>
+	<div class="half">
+		<p class="dalai"><strong>More</strong></p>
+		<ul>
+			<li><strong>Music</strong>
+				<ul>
+					<li>Performing musician with an indie band in Chicago</li>
+					<li><a href="http://simplemachinesband.bandcamp.com" target="blank">Have a listen</a>!</li>
+				</ul>
+			</li>
+			<li><strong>Sport</strong>
+				<ul>
+					<li>Religious Manchester United supporter since I was 5</li>
+					<li>Besides soccer, do my best to keep up with rugby, cricket, tennis, Formula 1, among other sports</li>
+				</ul>
+			</li>
+			<li><strong>Favourite Writers</strong>
+				<ul>
+					<li>Friedrich Nietzsche</li>
+					<li>Oscar Wilde</li>
+					<li>Douglas Adams</li>
+					<li>Hermann Hesse</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
