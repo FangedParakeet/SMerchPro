@@ -205,7 +205,7 @@
 }
 
 .content p {
-    margin: 10px;
+    margin: 20px;
 }
 
 .about_info.well {
@@ -237,13 +237,23 @@
 }
 
 .text {
-    width: 50%;
+    width: 65%;
     height: 100%;
     float: left;
 }
 
-.pics {
+.skills_list {
     width: 50%;
+    float:left;
+}
+
+.skills_list ul li {
+    font-size: 1.20em;
+    color: orange;
+}
+
+.pics {
+    width: 35%;
     height: 100%;
     float: left;
 }
@@ -251,6 +261,11 @@
 .pics img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.picsntext {
+    width: 100%;
+    float: left;
 }
 
 .barrier-bottom {
@@ -302,3 +317,41 @@
 .italics {
     font-style: italic;
 }
+
+.niet {
+    font-size: 1.8em;
+    line-height: 140%;
+}
+
+.dalai {
+    font-size: 1.6em;
+    line-height: 160%;
+}
+
+.main_body {
+    font-size: 1.15em;
+    line-height: 130%;
+}
+
+strong {
+    color: #8A8A8A;
+}
+
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+#slideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#hidden {
+    display: none;
+}
+
+
+

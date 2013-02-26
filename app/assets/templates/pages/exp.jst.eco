@@ -1,10 +1,62 @@
-<p>Nulla ac arcu sagittis massa tempus imperdiet quis non tellus. Etiam eu massa dui, eget pellentesque erat. Aliquam sem diam, blandit ac posuere at, posuere ut ligula. Pellentesque odio ipsum, aliquam a auctor ac, convallis eget purus. Maecenas hendrerit auctor mattis. Mauris in leo sit amet tortor eleifend suscipit vel nec est. Cras vitae sapien at turpis lobortis luctus in ut odio. Maecenas nisl tellus, dapibus ac blandit a, feugiat et leo. Nulla vulputate purus eget ligula cursus pharetra. Aenean vestibulum, augue ut molestie egestas, felis mauris malesuada elit, id placerat elit lorem vel elit. Ut cursus, eros in commodo faucibus, ante elit volutpat nibh, nec eleifend risus ipsum in elit.
-</p>
-<p>Maecenas feugiat, augue vitae gravida hendrerit, odio diam faucibus ante, at dictum tortor risus ac libero. Sed et dolor diam. Aliquam sagittis erat a tellus scelerisque viverra. Integer nisi felis, venenatis in auctor at, rutrum ut ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean a justo ac sapien gravida auctor. Vestibulum cursus sem porta enim fermentum iaculis. Donec interdum risus id tellus hendrerit non aliquet diam iaculis.
-</p>
-<p>Nulla est nisi, pharetra ac porttitor sed, consequat in nisl. Fusce erat dolor, mollis ac vestibulum quis, vulputate quis ipsum. Phasellus eget metus tincidunt nibh interdum consequat. Phasellus nulla metus, interdum luctus pulvinar sed, viverra ac libero. In aliquam velit vitae felis eleifend consectetur. Mauris sagittis erat sed lacus dignissim sit amet pretium erat convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris lectus sem, mattis at scelerisque vitae, adipiscing eget urna. Praesent facilisis quam et sapien suscipit sed feugiat felis tristique. Duis purus velit, mollis vel lacinia et, pharetra hendrerit sem. Vivamus libero est, aliquet et feugiat at, mollis eget quam. Pellentesque a tellus nunc, eget faucibus ligula. Aenean imperdiet lectus sed nisi imperdiet faucibus. Morbi vulputate risus at libero adipiscing eget bibendum augue luctus. Curabitur tristique purus a metus dapibus faucibus.
-</p>
-<p>Nam pharetra aliquam magna et luctus. Phasellus erat justo, facilisis et dapibus nec, vehicula a turpis. Proin diam tortor, auctor at tincidunt a, luctus eu tortor. Aliquam ullamcorper nunc euismod augue luctus faucibus. Donec a massa id metus pretium tincidunt. Mauris ut tincidunt elit. Phasellus magna est, lacinia in suscipit ut, porttitor quis lorem. Cras congue fermentum rutrum. Pellentesque non ultricies libero. Vestibulum lacinia elit in tortor ullamcorper volutpat.
-</p>
-<p>Etiam scelerisque condimentum lorem, ut hendrerit eros tincidunt at. Maecenas a eros quam. Fusce molestie metus quis ante adipiscing sed facilisis mi tempor. Quisque lacus est, posuere ut commodo quis, tincidunt eget justo. Nunc dictum est ut sem aliquam vulputate. Vivamus tristique pulvinar tempus. Aliquam erat volutpat.
-</p>
+<div class="picsntext">
+	<div class="pics">
+	  <p><img src="/assets/chicago.jpg" alt="An average day in Chicago"></p>
+		<p>
+			<div id="slideshow">
+				<img src="/assets/uchicago campus.jpg" alt="University of Chicago" id="shown">
+				<img src="/assets/me codeacademy.jpg" alt="Code Academy" id="hidden">
+				<img src="/assets/1871.jpg" alt="1871" id="hidden">
+			</div>
+		</p>
+	</div>
+	<div class="text">
+		<p class="dalai">
+			<span class="italics">
+				<strong>
+					"According to the scriptures, the hells are located a certain distance directly below Bodh Gaya, the place in India where the Buddha achieved enlightenment. But if you were to actually travel that distance, you would end up in the middle of America..."
+				</strong>
+				</span>
+				<br />--His Holiness the Dalai Lama on Midwestern winters
+		</p>
+		<p class="main_body">
+			Having grown up in <strong>England</strong>, <strong>Belgium</strong>, and <strong>India</strong> I not only have quite an international background, but also a rather mangled accent.
+			Education drew me to Chicago a little over four years ago, where I haplessly pursued & earned a degree in economics.
+			Two years in I received my first exposure to computer science, completing an introductory course to fulfill a maths requirement and quickly I realised <strong>I was in the wrong field</strong>.
+		</p>
+		<p class="main_body">
+			From then on I completed an intermediate course in <strong>C++</strong> and, through a roommate's recommendation, got involved with <strong><a href="http://codeacademy.org" target="blank">Code Academy</a></strong> (now merged with <strong><a href="http://37signals.com" target="blank">37signals</a></strong> and rechristened <strong><a href="http://starterleague.com" target="blank">Starter League</a></strong>).
+			Upon <strong>graduating from the University of Chicago</strong> with <strong>college honours</strong> in March of 2012, I completed a <strong>three-month Ruby on Rails web development course</strong> at Code Academy, made a lot of good friends, and built some cool apps. I was asked to return as <strong>a mentor</strong> for the summer class and gladly obliged. Since then I have remained based in Chicago working on pet projects and looking for opportunities. Though there's <strong>nothing like the wind in your hair in Chicago</strong>, I am definitely <strong>open to relocation</strong>.
+		</p>
+		<p class="main_body">
+			Having <strong>a year's experience working with Rails and Ruby</strong>, it is definitely my strongest language. However, I do have <strong>three months experience</strong> among other languages that I am quite comfortable with. Here is a list of languages and technologies that I am familiar with:
+		</p>
+	</div>
+</div>
+<div class="skills_list">
+	<p class="main_body">
+		<span class="dalai"><strong>Languages</strong></span>
+		<ul>
+			<li>Ruby</li>
+			<li>Javascript</li>
+			<li>jQuery</li>
+			<li>Coffeescript</li>
+			<li>HTML</li>
+			<li>C++</li>
+			<li>Dr. Racket <strong>(They taught me this at UChicago: I don't know why and I wouldn't feel left out if inevitably you haven't heard of it either)</strong></li>
+		</ul>
+	</p>
+</div>
+<div class="skills_list">
+	<p class="main_body">
+		<span class="dalai"><strong>Technologies</strong></span>
+		<ul>
+			<li>Rails</li>
+			<li>AJAX</li>
+			<li>Amazon EC2/S3</li>
+			<li>Backbone.js</li>
+			<li>Git</li>
+			<li>Heroku</li>
+			<li>Unix</li>
+		</ul>
+	</p>
+</div>
