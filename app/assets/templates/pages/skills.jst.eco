@@ -1,5 +1,6 @@
 <div class="picsntext">
   <p class="niet"><span class="italics"><strong>"I love scrapes. They are the only things that are never serious."</strong></span><br />--Oscar Wilde</p>
+	<p class="dalai" style="float:right"><strong>But wait--there's more!</strong></p>
 	<div class="image_wrapper">
 		<div id="slideshow2">
 			<img src="/assets/elbo.jpg" alt="Live at Chicago's Elbo Room" width="700">
@@ -11,6 +12,12 @@
 	<div class="half">
 		<p class="dalai"><strong>Other Powers</strong></p>
 		<ul>
+			<li><strong>Statistics</strong>
+				<ul>
+					<li>That economics degree isn't just for show, you know</li>
+					<li>Familiar with anything from hypothesis testing and distributions to confidence intervals and regressions</li>
+				</ul>
+			</li>
 			<li><strong>Graphical Skills</strong>
 				<ul>
 					<li>Experience with Adobe Photoshop and the more unwieldy, yet open source, GIMP</li>
@@ -36,8 +43,8 @@
 			</li>
 			<li><strong>Sport</strong>
 				<ul>
-					<li>Religious Manchester United supporter since I was 5</li>
-					<li>Besides soccer, I do my best to keep up with rugby, cricket, tennis, Formula 1, among other sports</li>
+					<li>Religious Manchester United supporter since the age of five</li>
+					<li>Besides soccer, I do my best to keep up with rugby, cricket, tennis, Formula One, among other sports</li>
 				</ul>
 			</li>
 			<li><strong>Favourite Writers</strong>
