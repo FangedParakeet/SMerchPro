@@ -31,13 +31,5 @@ $(document).ready(function() {
            .end().appendTo('#slideshow');}, 
         5000);
   });
-  
-  $(function(){
-      setInterval(function(){
-        $('#slideshow2 :first-child').fadeOut()
-           .next('img').fadeIn()
-           .end().appendTo('#slideshow2');}, 
-        5000);
-  });        
 })
 

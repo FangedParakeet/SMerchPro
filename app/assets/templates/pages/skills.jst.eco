@@ -1,12 +1,14 @@
 <div class="picsntext">
   <p class="niet"><span class="italics"><strong>"I love scrapes. They are the only things that are never serious."</strong></span><br />--Oscar Wilde</p>
-	<p class="dalai" style="float:right"><strong>But wait--there's more!</strong></p>
+	<p class="dalai" style="float:right"><strong>Check out my band!</strong></p>
+	<div class="clear"></div>
 	<div class="image_wrapper">
-		<div id="slideshow2">
-			<img src="/assets/elbo.jpg" alt="Live at Chicago's Elbo Room" width="700">
-			<img src="/assets/calcutta.jpg" alt="Argentina v. Venezuela" width="700" id="hidden">
-			<img src="/assets/studio.jpg" alt="In studio" width="1100" id="hidden">
-		</div>
+			<div class="studio">
+				<img src="/assets/studio.jpg" alt="In studio" width="1100">
+			</div>
+			<div class="player">
+				<iframe id="simple" width="300" height="410" style="position: relative; display: block; width: 400px; height: 300px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1542218114/size=grande3/bgcol=f42525/linkcol=ea3e3e/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://simplemachinesband.bandcamp.com/album/spirit-of-the-shoreland-ep">Spirit of the Shoreland EP by Simple Machines</a></iframe>
+			</div>
 	</div>
 	<div class="clear"></div>
 	<div class="half">
@@ -37,8 +39,7 @@
 		<ul>
 			<li><strong>Music</strong>
 				<ul>
-					<li>Performing musician with an indie band in Chicago</li>
-					<li><a href="http://simplemachinesband.bandcamp.com" target="blank">Have a listen</a>!</li>
+					<li>Performing musician with an indie band in Chicago (see above)</li>
 				</ul>
 			</li>
 			<li><strong>Sport</strong>
