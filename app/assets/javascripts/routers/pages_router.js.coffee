@@ -10,5 +10,5 @@ class SMerchPro.Routers.Pages extends Backbone.Router
     $('.links').html(links_view.render().el)
     $('.site_info').html(info_view.render().el)
     setTimeout ( -> $('#learn').removeClass("pre").addClass("post")), 200
-    setTimeout ( -> $('#grow').removeClass("pre").addClass("post")), 800
-    setTimeout ( -> $('#build').removeClass("pre").addClass("post")), 1400      
+    setTimeout ( -> $('#grow').removeClass("pre").addClass("post")), 600
+    setTimeout ( -> $('#build').removeClass("pre").addClass("post")), 100      

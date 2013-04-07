@@ -19,104 +19,104 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
     if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
       $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.intro').hide()), 1800
-      setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 1800
-      setTimeout ( -> $('.content').slideToggle(600)), 1800
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('.intro').hide()), 900
+      setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 900
+      setTimeout ( -> $('.content').slideToggle(300)), 900
     else
       if /unselected/.test($('#about').attr('class'))
         unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(600)
-          setTimeout ( -> $('.content').html(view.render().el)), 600
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 1200
-          setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 1200
-          setTimeout ( -> $('.content').slideToggle(600)), 1200
+          $('.content').slideToggle(300)
+          setTimeout ( -> $('.content').html(view.render().el)), 300
+          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
+          setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 600
+          setTimeout ( -> $('.content').slideToggle(300)), 600
         else
           $('.content').html(view.render().el)
           $('#about').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(600)
+          $('.content').slideToggle(300)
       else
         $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(600)
+        $('.content').slideToggle(300)
               
   exp: ->
     view  = new SMerchPro.Views.PagesExp()
     if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
       $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.intro').hide()), 1800
-      setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 1800
-      setTimeout ( -> $('.content').slideToggle(600)), 1800
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('.intro').hide()), 900
+      setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 900
+      setTimeout ( -> $('.content').slideToggle(300)), 900
     else
       if /unselected/.test($('#exp').attr('class'))
         unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(600)
-          setTimeout ( -> $('.content').html(view.render().el)), 600
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 1200
-          setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 1200
-          setTimeout ( -> $('.content').slideToggle(600)), 1200
+          $('.content').slideToggle(300)
+          setTimeout ( -> $('.content').html(view.render().el)), 300
+          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
+          setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 600
+          setTimeout ( -> $('.content').slideToggle(300)), 600
         else
           $('.content').html(view.render().el)
           $('#exp').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(600)
+          $('.content').slideToggle(300)
       else
         $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(600)
+        $('.content').slideToggle(300)
         
   proj: ->
     view  = new SMerchPro.Views.PagesProj()
     if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
       $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.intro').hide()), 1800
-      setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 1800
-      setTimeout ( -> $('.content').slideToggle(600)), 1800
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('.intro').hide()), 900
+      setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 900
+      setTimeout ( -> $('.content').slideToggle(300)), 900
     else
       if /unselected/.test($('#proj').attr('class'))
         unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(600)
-          setTimeout ( -> $('.content').html(view.render().el)), 600
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 1200
-          setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 1200
-          setTimeout ( -> $('.content').slideToggle(600)), 1200
+          $('.content').slideToggle(300)
+          setTimeout ( -> $('.content').html(view.render().el)), 300
+          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
+          setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 600
+          setTimeout ( -> $('.content').slideToggle(300)), 600
         else
           $('.content').html(view.render().el)
           $('#proj').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(600)
+          $('.content').slideToggle(300)
       else
         $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(600)
+        $('.content').slideToggle(300)
         
   skills: ->
     view  = new SMerchPro.Views.PagesSkills()
     if $('#learn').attr('class') == "post"
       $('.content').html(view.render().el)
       $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.intro').hide()), 1800
-      setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 1800
-      setTimeout ( -> $('.content').slideToggle(600)), 1800
+      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
+      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
+      setTimeout ( -> $('.intro').hide()), 900
+      setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 900
+      setTimeout ( -> $('.content').slideToggle(300)), 900
     else
       if /unselected/.test($('#skills').attr('class'))
         unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(600)
-          setTimeout ( -> $('.content').html(view.render().el)), 600
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 1200
-          setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 1200
-          setTimeout ( -> $('.content').slideToggle(600)), 1200
+          $('.content').slideToggle(300)
+          setTimeout ( -> $('.content').html(view.render().el)), 300
+          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
+          setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 600
+          setTimeout ( -> $('.content').slideToggle(300)), 600
         else
           $('.content').html(view.render().el)
           $('#skills').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(600)
+          $('.content').slideToggle(300)
       else
         $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(600)
+        $('.content').slideToggle(300)
     
     
     
