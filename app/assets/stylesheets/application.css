@@ -470,3 +470,10 @@ strong {
 #portfolio ul li p a {
     color: #222;
 }
+
+.mobile_player {
+    width: 320px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
