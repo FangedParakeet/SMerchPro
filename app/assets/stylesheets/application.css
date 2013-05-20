@@ -462,3 +462,11 @@ strong {
     font-weight: bold;
     text-decoration: none;
 }
+
+#background ul li p a {
+    color: #222;
+}
+
+#portfolio ul li p a {
+    color: #222;
+}

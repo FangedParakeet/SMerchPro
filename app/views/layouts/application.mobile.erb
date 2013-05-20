@@ -27,7 +27,7 @@
 	<body>
 		
 		<div id="main" class="current">
-			<div class="toolbar">
+			<div class="toolbar" style="background-color:#0BB">
 				<a class="back" rel="external" href="?mobile=0">Full Site</a>
 				<h1>Samir Merchant</h1>
 				<a class="button slideup" id="about_site" href="#about_this">About This Page</a>
@@ -58,7 +58,7 @@
 		</div>
 				
 		<div id="about">
-			<div class="toolbar">
+			<div class="toolbar" style="background-color:#963">
 				<a class="back" href="#">Back</a>
 				<h1>About</h1>
 			</div>
@@ -68,7 +68,7 @@
 				<ul class="rounded">
 					<li><p>I am a coder, a musician, a University of Chicago alumnus, and above all a builder. With two years of coding experience, an economics degree, and a lot of determination I am venturing into the wilderness, hunting for professional experience to continue my development. I see myself as more of a back-end developer, in that I love getting stuck into code and controllers, my eyes lighting up when I see unconstructed model relationships. However, as any developer knows, it's impossible not to let one get many fingers stuck into many pies, so I have over time developed strong front-end skills as well, becoming well-versed in anything from CSS through AJAX. I had to do everything here after all...</p>
 					</li>
-					<li style="text-align:center"><%= image_tag 'sort of me.png', size: '250x250' %></li>
+					<li style="text-align:center"><%= image_tag 'sort of me.png', width: '250' %></li>
 					<li><p>Essentially I have a passion for learning, facing down challenges, and above all building beautiful, clean, and meaningful code. I want to learn more skills so that I can build solutions to solve big problems. If you think these are qualities that you relish in a programmer, please get in touch with me!</p>
 					</li>
 				</ul>
@@ -76,16 +76,16 @@
 		</div>
 		
 		<div id="background">
-			<div class="toolbar">
+			<div class="toolbar" style="background-color:#F00">
 				<a class="back" href="#">Back</a>
 				<h1>Background</h1>
 			</div>
 			<div class="scroll">
 				<h2><strong>"According to the scriptures, the hells are located a certain distance directly below Bodh Gaya, the place in India where the Buddha achieved enlightenment. But if you were to actually travel that distance, you would end up in the middle of America..."</strong>--His Holiness the Dalai Lama on Midwestern winters</h2>
 				<ul class="rounded">
-					<li style="text-align:center"><%= image_tag 'chicago.jpg', size: '250x250' %></li>
+					<li style="text-align:center"><%= image_tag 'chicago.jpg', width: '250' %></li>
 					<li><p>Having grown up in England, Belgium, and India I not only have quite an international background, but also a rather mangled accent. Education drew me to Chicago a little over four years ago, where I haplessly pursued & earned a degree in economics. Two years in I received my first exposure to computer science, completing an introductory course to fulfill a maths requirement and quickly I realised I was in the wrong field.</p></li>
-					<li style="text-align:center"><%= image_tag 'me codeacademy.jpg', size: '250x250' %></li>
+					<li style="text-align:center"><%= image_tag 'me codeacademy.jpg', width: '250' %></li>
 					<li><p>From then on I completed an intermediate course in C++ and, through a roommate's recommendation, got involved with <a href="http://codeacademy.org" style="display:inline" target="blank" rel="external">Code Academy</a> (now merged with <a href="http://37signals.com" style="display:inline" target="blank" rel="external">37signals</a> and rechristened <a href="http://starterleague.com" style="display:inline" target="blank" rel="external">Starter League</a>). Upon graduating from the University of Chicago with college honours in March of 2012, I completed a three-month Ruby on Rails web development course at Code Academy, made a lot of good friends, and built some cool apps. I was asked to return as a mentor for the summer class and gladly obliged. Since then I have remained based in Chicago working on pet projects and looking for opportunities. Though there's nothing like the wind in your hair in Chicago, I am definitely open to relocation.</p></li>
 				</ul>
 				<h2>Languages</h2>
@@ -116,12 +116,53 @@
 					<li>Facebook</li>
 					<li>Twitter</li>
 					<li>YouTube</li>
+					<li>Vimeo</li>
+					<li>Soundcloud</li>
 					<li>Google Maps</li>
 					<li>Reddit</li>
 					<li>GeoNames</li>
 				</ul>
 			</div>
 		</div>
+		
+		<div id="portfolio">
+			<div class="toolbar" style="background-color:#7F007F">
+				<a class="back" href="#">Back</a>
+				<h1>Portfolio</h1>
+			</div>
+			<h2><strong>"I would go out tonight, but I haven't got a stitch to wear."</strong>--Morrissey on avoiding friends to stay in and push one more line of code</h2>
+			<h2>Here are some projects dear to my heart over which I have slaved many hours and sacrificed many promising outings.</h2>
+			<div class="scroll">
+				<ul class="rounded">
+					<li><p><a href="http://sinistereo.fm" rel="external" target="blank" style="display:inline"><%= image_tag 'sinistereo.png', width: '250' %></a> <a href="http://sinistereo.fm" rel="external" target="blank" style="display:inline">Sinistereo</a></p>
+						<ul class="rounded">
+							<li><p>This a music streaming site to connect indie bands with consumers of up and coming music.	A Ruby on Rails app with a heavy client-side Javascript and AJAX interface. The site uses storage on Amazon's S3 cloud and is hosted via Heroku.	Currently live at <a href="http://sinistereo.fm" rel="external" target="blank" style="display:inline">sinistereo.fm</a></p></li>
+						</ul>
+					</li>
+					<li>
+						<p style="text-align:right"><a href="http://hashpage.me" rel="external" target="blank" style="display:inline">HashPage</a>	<a href="http://hashpage.me" rel="external" target="blank" style="display:inline"><%= image_tag 'hashpage.png', width: '250' %></a></p>
+						<ul class="rounded">
+							<li><p style="text-align:right">HashPage allows a user to create a clean profile page from one's Twitter account, where only Tweets categorised by various selected hashtags and phrases are shown.	Another full Ruby on Rails app, relying on Twitter's REST API. I worked predominantly on sessions, reducing API calls, and modeling. Not currently live at <a href="http://hashpage.me" rel="external" target="blank" style="display:inline">hashpage.me</a>.</p>
+							</li>
+						</ul>
+					</li>
+					<li><p><a href="http://subredditshuffler.herokuapp.com" rel="external" target="blank" style="display:inline"><%= image_tag 'shuffler.png', width: '250' %></a> <a href="http://subredditshuffler.herokuapp.com" rel="external" target="blank" style="display:inline">Subreddit Shuffler</a></p></li>
+					<ul>
+						<li><p>App allowing users to shuffle together various audio and video content from selected subreddits from Reddit, the self-proclaimed front page of the internet.	Ruby on Rails on the back-end, but uses a combination of Javascript, AJAX, jQuery, and YouTube's own JS/SWFObject API to display content via Reddit's own API. Hosted via Heroku. Live at <a href="http://subredditshuffler.herokuapp.com" rel="external" target="blank" style="display:inline">subredditshuffler.herokuapp.com</a>. Currently functional for YouTube, Vimeo, & Soundcloud.</p></li>
+					</ul>
+				</ul>
+			</div>			
+		</div>
+		
+		<div id="misc">
+			<div class="toolbar">
+				<a class="back" href="#">Back</a>
+				<h1>Misc</h1>
+			</div>
+			<h2><strong>"I love scrapes. They are the only things that are never serious."</strong>--Oscar Wilde</h2>
+			<h2>Check out my band!</h2>
+		</div>
+		
 		
 	</body>
 
