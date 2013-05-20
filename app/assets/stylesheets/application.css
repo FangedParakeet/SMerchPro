@@ -114,7 +114,16 @@
     color: #58B1DC;
 }
 
-.contact 
+.contact p {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.contact p a:hover {
+    text-decoration: none;
+}
 
 .links {
     width: 90%;
@@ -433,6 +442,23 @@ strong {
     color: orange;
 }
 
+/***  MOBILE ***/
 
+#about_this {
+    padding: 100px 10px 40px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 0;
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    background: #161618;
+}
 
+#about_this p {
+    margin-bottom: 8px;
+}
 
+#about_this a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
