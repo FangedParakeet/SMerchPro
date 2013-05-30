@@ -472,8 +472,9 @@ strong {
 }
 
 .mobile_player {
-    width: 320px;
+    width: 300px;
     margin: 0px auto;
     text-align: center;
     padding: 40px 0px 0px 0px;
 }
+
