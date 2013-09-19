@@ -3,7 +3,7 @@
 <head>
   <title>Samir Merchant :: For Hire</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "application", "grunt", "jquery.color" %>
   <%= csrf_meta_tags %>
 	<meta property="og:title" content="Samir Merchant :: For Hire">
 	<meta property="og:type" content="website">
@@ -13,12 +13,26 @@
 	<meta property="og:description" content="Take on me. Take me on. I'll be gone. In a day or two.">
 	<meta name="description" content="Take on me. Take me on. I'll be gone. In a day or two.">
 	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+		 spectrum();
+
+		 function spectrum(){
+		    var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+		    $('.header').animate( { backgroundColor: hue }, 5000);
+		    spectrum();
+		 }
+
+		});
+	</script>
 </head>
 <body>
 		<div class="mobile_link">
 			<%= link_to (image_tag 'mobile.png', size: '100x100', onmouseover: "this.src='assets/mobileinvert.png'", onmouseout: "this.src='assets/mobile.png'"), root_url(mobile: "1") %>
 		</div>
-		<div class="header">
+		<div class="clear"></div>
+		<div class="header" style="height:70px; width:800px; padding: 0px; margin:20px auto;">
 			<%= link_to (image_tag 'samir merchant.png',size: '800x200'), root_url %>
 		</div>
 		<div class="contact">
