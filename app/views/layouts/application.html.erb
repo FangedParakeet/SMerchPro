@@ -15,6 +15,9 @@
 	<link rel="shortcut icon" href="/assets/favicon.ico">
 </head>
 <body>
+		<div class="mobile_link">
+			<%= link_to (image_tag 'mobile.png', size: '100x100', onmouseover: "this.src='assets/mobileinvert.png'", onmouseout: "this.src='assets/mobile.png'"), root_url(mobile: "1") %>
+		</div>
 		<div class="header">
 			<%= link_to (image_tag 'samir merchant.png',size: '800x200'), root_url %>
 		</div>
@@ -24,7 +27,6 @@
 				<li>+91 9819 449 239</li>
 				<li><%= link_to "github.com/FangedParakeet", 'http://github.com/FangedParakeet', target: 'blank' %></li>
 			</ul>
-			<p><button><%= link_to "Mobile Site", root_url(mobile: "1") %></button></p>
 		</div>
 		<div class="clear"></div>
 		<div class="links"></div>
