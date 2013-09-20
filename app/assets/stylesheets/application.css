@@ -110,16 +110,12 @@
     float: left;
     width: 33.33%;
     text-align: center;
-    color: brown;
+    color: white;
     margin: 0px auto;
 }
 
 .contact ul li a {
-    color: #CA0000;
-}
-
-.contact ul li a:hover {
-    color: #58B1DC;
+    color: #ffffff;
 }
 
 .contact p {
