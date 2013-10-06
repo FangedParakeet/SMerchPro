@@ -82,6 +82,7 @@
 
 .mobile_link  {
     position: relative;
+    z-index: 1;
 }
 
 .mobile_link img {
@@ -91,11 +92,13 @@
 }
 
 .header {
-    width: 100%;
-    padding: 10px 0px 10px 0px;
+    width: 1050px;
     margin: 10px 0px 10px 0px;
     text-align: center; 
     font-size: 250%;
+    padding: 20px;
+    display: inline-block;
+    z-index: -1;
 }
 
 .contact {
@@ -129,35 +132,49 @@
     text-decoration: none;
 }
 
-.links {
-    min-width: 90%;
-    height: 100%;
-    padding: 20px 0px 70px 0px;
-    margin: 10px auto;
-    font-size: 150%;
-    overflow: auto;
-}
-
-.links ul li {
+#logo {
+    height:36px; 
+    width:400px; 
     float: left;
-    width: 15em;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.links ul li img { 
-    display: inline;
     -webkit-transition: all 0.5s ease; 
     -moz-transition: all 0.5s ease; 
     -o-transition: all 0.5s ease; /*Reflection*/ 
+    opacity: 0.8;
+}
+
+#logo:hover {
+    opacity: 1;
+}
+
+.links {
+    float: left;
+}
+
+.links ul {
+    float: left;
+}
+
+.links ul li {
+    display: inline-block;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease; /*Reflection*/ 
+    opacity: 0.8;
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.links ul li:hover { 
+    opacity: 1; /*Reflection*/ 
+    cursor: pointer;
 } 
 
-.links ul li img:hover { 
-    opacity: 1; /*Reflection*/ 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
-
-    cursor: pointer;
+.links ul li img {
+    height: 36px;
 }
 
 .unselected {
@@ -167,7 +184,6 @@
 
 .selected {
     opacity: 1; /*Reflection*/ 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); /*Glow*/ 
 }
 
 .intro {
@@ -203,6 +219,17 @@
     opacity: 1; 
     -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); 
     cursor: pointer;
+}
+
+.left {
+    float: left;
+    -webkit-transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;    
+}
+
+.right {
+    float: left;
 }
 
 .content {

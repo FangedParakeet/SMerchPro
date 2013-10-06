@@ -1,6 +1,6 @@
 class SMerchPro.Views.PagesLinks extends Backbone.View
   
-  tagName: 'div'
+  tagName: 'nav'
   
   template: JST['pages/links']
   

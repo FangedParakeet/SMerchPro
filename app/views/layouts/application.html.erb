@@ -20,7 +20,9 @@
 
 		 function spectrum(){
 		    var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-		    $('.header').animate( { backgroundColor: hue }, 5000);
+		    $('#logo').animate( { backgroundColor: hue }, 4000);
+				$('.links ul li').animate( {backgroundColor: hue }, 4000);
+				$('.left').animate( {backgroundColor: hue}, 4000);
 		    spectrum();
 		 }
 
@@ -33,31 +35,27 @@
 			<%= link_to (image_tag 'mobile.png', size: '100x100', onmouseover: "this.src='assets/mobileinvert.png'", onmouseout: "this.src='assets/mobile.png'"), root_url(mobile: "1") %>
 		</div>
 		<div class="clear"></div>
-		<div class="header" style="height:70px; width:800px; padding: 0px; margin:20px auto;">
-			<%= link_to (image_tag 'samir merchant.png',size: '800x200'), root_url %>
+		<div class="header">
+			<div id="logo">
+				<%= link_to (image_tag 'samir merchant.png',width: '400'), root_url %>
+			</div>
+			<div class="links"></div>
 		</div>
-		<div class="contact">
-			<ul>
-				<li><%= link_to "samirthemerchant@gmail.com", 'mailto:samirthemerchant@gmail.com' %></li>
-				<li>+91 9819 449 239</li>
-				<li><%= link_to "github.com/FangedParakeet", 'http://github.com/FangedParakeet', target: 'blank' %></li>
-			</ul>
-		</div>
-		<nav class="links" role="navigation"></nav>
 		<div class="clear"></div>
-		<div class="barrier-top">
-			________________________________________
-			<%= image_tag 'barrier.png', width: '300' %>
-			________________________________________
-		</div>
 		<div class="intro"></div>
-		<div class="content"></div>
-		<div class="barrier-bottom">
-			_____________________________________________
-			<%= image_tag 'barrier bot.png', width: '220' %>
-			_____________________________________________
-		</div>
-		<div class="site_info"></div>
 		<div class="clear"></div>
+		<div class="content"></div>
+		<div class="footer">
+			<div class="contact">
+				<ul>
+					<li><%= link_to "samirthemerchant@gmail.com", 'mailto:samirthemerchant@gmail.com' %></li>
+					<li>+91 9819 449 239</li>
+					<li><%= link_to "github.com/FangedParakeet", 'http://github.com/FangedParakeet', target: 'blank' %></li>
+				</ul>
+			</div>
+
+			<div class="site_info"></div>
+			<div class="clear"></div>
+		</div>
 </body>
 </html>
