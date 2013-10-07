@@ -91,6 +91,10 @@
     right: 0px;
 }
 
+.container {
+    width: 1050px;
+}
+
 .header {
     width: 1050px;
     margin: 10px 0px 10px 0px;
@@ -187,56 +191,27 @@
 }
 
 .intro {
-    width: 80%;
-    padding: 30px 50px 20px 50px;
-    margin: 20px auto;
-    font-size: 500%;
-    text-align: center;
-}
-
-.intro span { 
-    width: 700px; 
-    height: 100px;
-    margin: 25px; 
-    opacity: 0.5;
-    -webkit-transition: all 0.5s ease; 
-    -moz-transition: all 0.5s ease; 
-    -o-transition: all 0.5s ease; 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1))); 
-}
-
-.pre {
-    color: transparent;
-    line-height: 0px;
-} 
-
-.post {
-    line-height: 100px;
-    color: green;   
-}
-
-.intro span:hover { 
-    opacity: 1; 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4))); 
-    cursor: pointer;
+    width: 100%;
+    font-size: 200%;
+    line-height: 100%;
 }
 
 .left {
     float: left;
+    width: 500px;
     -webkit-transition: all 0.5s ease; 
     -moz-transition: all 0.5s ease; 
     -o-transition: all 0.5s ease;    
 }
 
 .right {
+    width: 550px;
     float: left;
 }
 
 .content {
-    width: 90%;
-    margin: 0px auto;
     overflow: auto;
-    display: none;
+    margin: 50px 0px 50px 0px;
 }
 
 .content p {
@@ -466,6 +441,12 @@ strong {
 
 .half ul li {
     color: orange;
+}
+
+.footer {
+    width: 100%;
+    background-color: gray;
+    box-shadow: 0px -2px 1px gray;
 }
 
 /***  MOBILE ***/
