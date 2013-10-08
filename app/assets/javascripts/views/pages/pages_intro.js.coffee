@@ -5,40 +5,15 @@ class SMerchPro.Views.PagesIntro extends Backbone.View
   template: JST['pages/intro']
   
   events:
-    'click #learn': 'learn'
-    'click #grow': 'grow'
-    'click #build': 'build'
+    'click #next': 'next'
       
   render: ->
     $(@el).html(@template())
     this
     
-  learn: ->
-    view  = new SMerchPro.Views.PagesAbout()
-    $('.content').html(view.render().el)
-    $('#learn').removeClass("post").addClass("pre")
-    setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-    setTimeout ( -> $('#build').removeClass("post").addClass("pre")), 600
-    setTimeout ( -> $('.intro').hide()), 900
-    setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 900
-    setTimeout ( -> $('.content').slideToggle(300)), 900
+  next: ->
+    view = new SMerchPro.Views.PagesAbout
+    $('.content').hide('slide', {direction: 'right'}, 300)
+    setTimeout ( -> $('.content').html(view.render().el)), 300
+    setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 300
     
-  grow: ->
-    view  = new SMerchPro.Views.PagesExp()
-    $('.content').html(view.render().el)
-    $('#grow').removeClass("post").addClass("pre")
-    setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 300
-    setTimeout ( -> $('#build').removeClass("post").addClass("pre")), 600
-    setTimeout ( -> $('.intro').hide()), 900
-    setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 900
-    setTimeout ( -> $('.content').slideToggle(300)), 900
-    
-  build: ->
-    view  = new SMerchPro.Views.PagesProj()
-    $('.content').html(view.render().el)
-    $('#build').removeClass("post").addClass("pre")
-    setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-    setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
-    setTimeout ( -> $('.intro').hide()), 900
-    setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 900
-    setTimeout ( -> $('.content').slideToggle(300)), 900

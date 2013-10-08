@@ -15,16 +15,8 @@ class SMerchPro.Views.PagesInfo extends Backbone.View
     
   about: ->
     view = new SMerchPro.Views.PagesAboutSite()
-    if $('#learn').attr('class') == "post"
+    if $('.info_text').css('display') == 'none'
       $('.info_text').html(view.render().el)
-      $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 1200
-      setTimeout ( -> $('.intro').hide()), 1800
-      setTimeout ( -> $('.info_text').slideToggle()), 1800
+      $('.info_text').slideToggle()
     else
-      if $('.info_text').css('display') == 'none'
-        $('.info_text').html(view.render().el)
-        $('.info_text').slideToggle()
-      else
-        $('.info_text').slideToggle()
+      $('.info_text').slideToggle()

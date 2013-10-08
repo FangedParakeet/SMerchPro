@@ -1,9 +1,7 @@
-<!-- <span class="pre" id="learn">learn.</span>
-<span class="pre" id="grow">grow.</span>
-<span class="pre" id="build">build.</span> -->
 <div class="left">
 	<img src="/assets/tache.png"></img>
 </div>
 <div class="right">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet ante tincidunt, consectetur ligula vel, scelerisque metus. Nunc aliquet tristique quam, ut scelerisque augue elementum et. Quisque viverra elit nec egestas sollicitudin. Aliquam erat volutpat. Nullam mattis at purus elementum malesuada. Vestibulum faucibus libero quis ligula gravida, id blandit justo rhoncus. Integer in odio semper sapien cursus mollis vel tincidunt arcu. Fusce facilisis metus sit amet massa porttitor vulputate. Nunc in dolor enim. Nullam posuere purus sit amet porta facilisis. Aenean adipiscing gravida nulla sed cursus.</p>
+	<p><a id="next">Next</a></p>
 </div>
