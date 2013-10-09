@@ -16,109 +16,132 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
     
   about: ->
     view  = new SMerchPro.Views.PagesAbout()
-    if $('#learn').attr('class') == "post"
-      $('.content').html(view.render().el)
-      $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('.intro').hide()), 900
-      setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 900
-      setTimeout ( -> $('.content').slideToggle(300)), 900
+    about = $('#about')
+    if /selected/.test(about.attr('class'))
+    else if /undefined/.test($('.selected').attr('id'))
+      about.addClass('selected')
+      src = about.attr('src')
+      over = about.attr('onmouseover')
+      src = src.replace('1', '2')
+      about.attr('src', src)
+      about.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150
     else
-      if /unselected/.test($('#about').attr('class'))
-        unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(300)
-          setTimeout ( -> $('.content').html(view.render().el)), 300
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
-          setTimeout ( -> $('#about').removeClass("unselected").addClass("selected")), 600
-          setTimeout ( -> $('.content').slideToggle(300)), 600
-        else
-          $('.content').html(view.render().el)
-          $('#about').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(300)
-      else
-        $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(300)
-              
+      old = $('.selected')
+      old.removeClass('selected')
+      oldSrc = old.attr('src')
+      oldOver = old.attr('onmouseout')
+      oldSrc = oldSrc.replace('2', '1')
+      oldOver = oldOver.replace('2', '1')
+      old.attr('src', oldSrc)
+      old.attr('onmouseout', oldOver)
+      about.addClass('selected')
+      src = about.attr('src')
+      over = about.attr('onmouseover')
+      src = src.replace('1', '2')
+      about.attr('src', src)
+      about.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150   
+                    
   exp: ->
     view  = new SMerchPro.Views.PagesExp()
-    if $('#learn').attr('class') == "post"
-      $('.content').html(view.render().el)
-      $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('.intro').hide()), 900
-      setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 900
-      setTimeout ( -> $('.content').slideToggle(300)), 900
+    exp = $('#exp')
+    if /selected/.test(exp.attr('class'))
+    else if /undefined/.test($('.selected').attr('id'))
+      exp.addClass('selected')
+      src = exp.attr('src')
+      over = exp.attr('onmouseover')
+      src = src.replace('1', '2')
+      exp.attr('src', src)
+      exp.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150
     else
-      if /unselected/.test($('#exp').attr('class'))
-        unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(300)
-          setTimeout ( -> $('.content').html(view.render().el)), 300
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
-          setTimeout ( -> $('#exp').removeClass("unselected").addClass("selected")), 600
-          setTimeout ( -> $('.content').slideToggle(300)), 600
-        else
-          $('.content').html(view.render().el)
-          $('#exp').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(300)
-      else
-        $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(300)
+      old = $('.selected')
+      old.removeClass('selected')
+      oldSrc = old.attr('src')
+      oldOver = old.attr('onmouseout')
+      oldSrc = oldSrc.replace('2', '1')
+      oldOver = oldOver.replace('2', '1')
+      old.attr('src', oldSrc)
+      old.attr('onmouseout', oldOver)
+      exp.addClass('selected')
+      src = exp.attr('src')
+      over = exp.attr('onmouseover')
+      src = src.replace('1', '2')
+      exp.attr('src', src)
+      exp.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150   
         
   proj: ->
     view  = new SMerchPro.Views.PagesProj()
-    if $('#learn').attr('class') == "post"
-      $('.content').html(view.render().el)
-      $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('.intro').hide()), 900
-      setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 900
-      setTimeout ( -> $('.content').slideToggle(300)), 900
+    proj = $('#proj')
+    if /selected/.test(proj.attr('class'))
+    else if /undefined/.test($('.selected').attr('id'))
+      proj.addClass('selected')
+      src = proj.attr('src')
+      over = proj.attr('onmouseover')
+      src = src.replace('1', '2')
+      proj.attr('src', src)
+      proj.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150
     else
-      if /unselected/.test($('#proj').attr('class'))
-        unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(300)
-          setTimeout ( -> $('.content').html(view.render().el)), 300
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
-          setTimeout ( -> $('#proj').removeClass("unselected").addClass("selected")), 600
-          setTimeout ( -> $('.content').slideToggle(300)), 600
-        else
-          $('.content').html(view.render().el)
-          $('#proj').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(300)
-      else
-        $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(300)
+      old = $('.selected')
+      old.removeClass('selected')
+      oldSrc = old.attr('src')
+      oldOver = old.attr('onmouseout')
+      oldSrc = oldSrc.replace('2', '1')
+      oldOver = oldOver.replace('2', '1')
+      old.attr('src', oldSrc)
+      old.attr('onmouseout', oldOver)
+      proj.addClass('selected')
+      src = proj.attr('src')
+      over = proj.attr('onmouseover')
+      src = src.replace('1', '2')
+      proj.attr('src', src)
+      proj.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150   
         
   skills: ->
     view  = new SMerchPro.Views.PagesSkills()
-    if $('#learn').attr('class') == "post"
-      $('.content').html(view.render().el)
-      $('#build').removeClass("post").addClass("pre")
-      setTimeout ( -> $('#grow').removeClass("post").addClass("pre")), 300
-      setTimeout ( -> $('#learn').removeClass("post").addClass("pre")), 600
-      setTimeout ( -> $('.intro').hide()), 900
-      setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 900
-      setTimeout ( -> $('.content').slideToggle(300)), 900
+    skills = $('#skills')
+    if /selected/.test(skills.attr('class'))
+    else if /undefined/.test($('.selected').attr('id'))
+      skills.addClass('selected')
+      src = skills.attr('src')
+      over = skills.attr('onmouseover')
+      src = src.replace('1', '2')
+      skills.attr('src', src)
+      skills.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150
     else
-      if /unselected/.test($('#skills').attr('class'))
-        unless $('.content').css('display') == 'none'
-          $('.content').slideToggle(300)
-          setTimeout ( -> $('.content').html(view.render().el)), 300
-          setTimeout ( -> $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")), 600
-          setTimeout ( -> $('#skills').removeClass("unselected").addClass("selected")), 600
-          setTimeout ( -> $('.content').slideToggle(300)), 600
-        else
-          $('.content').html(view.render().el)
-          $('#skills').removeClass("unselected").addClass("selected")
-          $('.content').slideToggle(300)
-      else
-        $(document.getElementsByClassName("selected")[0]).removeClass("selected").addClass("unselected")
-        $('.content').slideToggle(300)
-    
-    
-    
-    
-    
+      old = $('.selected')
+      old.removeClass('selected')
+      oldSrc = old.attr('src')
+      oldOver = old.attr('onmouseout')
+      oldSrc = oldSrc.replace('2', '1')
+      oldOver = oldOver.replace('2', '1')
+      old.attr('src', oldSrc)
+      old.attr('onmouseout', oldOver)
+      skills.addClass('selected')
+      src = skills.attr('src')
+      over = skills.attr('onmouseover')
+      src = src.replace('1', '2')
+      skills.attr('src', src)
+      skills.attr('onmouseout', over)
+      $('.content').hide('slide', {direction: 'right'}, 150)
+      setTimeout ( -> $('.content').html(view.render().el)), 150
+      setTimeout ( -> $('.content').show('slide', {direction: 'left'}, 300)), 150   

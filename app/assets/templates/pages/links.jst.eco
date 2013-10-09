@@ -1,6 +1,6 @@
 <ul>
-  <li><img src="/assets/about1.png" id="about" class="unselected" onmouseover="this.src='/assets/about2.png'" onmouseout="this.src='/assets/about1.png'"></li>
-  <li><img src="/assets/background1.png" id="exp" class="unselected" onmouseover="this.src='/assets/background2.png'" onmouseout="this.src='/assets/background1.png'"></li>
-  <li><img src="/assets/portfolio1.png" id="proj" class="unselected" onmouseover="this.src='/assets/portfolio2.png'" onmouseout="this.src='/assets/portfolio1.png'"></li>
-  <li><img src="/assets/misc1.png" id="skills" class="unselected" onmouseover="this.src='/assets/misc2.png'" onmouseout="this.src='/assets/misc1.png'"></li>
+  <li><img src="/assets/about1.png" id="about" onmouseover="this.src='/assets/about2.png'" onmouseout="this.src='/assets/about1.png'"></li>
+  <li><img src="/assets/background1.png" id="exp" onmouseover="this.src='/assets/background2.png'" onmouseout="this.src='/assets/background1.png'"></li>
+  <li><img src="/assets/portfolio1.png" id="proj" onmouseover="this.src='/assets/portfolio2.png'" onmouseout="this.src='/assets/portfolio1.png'"></li>
+  <li><img src="/assets/misc1.png" id="skills" onmouseover="this.src='/assets/misc2.png'" onmouseout="this.src='/assets/misc1.png'"></li>
 </ul>
