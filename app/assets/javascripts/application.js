@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.color
 //= require twitter/bootstrap
 //= require underscore
 //= require backbone
@@ -22,14 +23,4 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree .
-
-$(document).ready(function() {
-  $(function(){
-      setInterval(function(){
-        $('#slideshow :first-child').fadeOut()
-           .next('img').fadeIn()
-           .end().appendTo('#slideshow');}, 
-        5000);
-  });
-})
 

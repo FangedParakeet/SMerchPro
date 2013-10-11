@@ -13,21 +13,30 @@
 	<meta property="og:description" content="Take on me. Take me on. I'll be gone. In a day or two.">
 	<meta name="description" content="Take on me. Take me on. I'll be gone. In a day or two.">
 	<link rel="shortcut icon" href="/assets/favicon.ico">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 
-		 spectrum();
+			 spectrum();
+			 
+			 			
+			 function spectrum(){
+			    var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+			    $('#logo').animate( { backgroundColor: hue }, 4000);
+ 					$('.links ul li').animate( {backgroundColor: hue }, 4000);
+ 					$('.left').animate( {backgroundColor: hue}, 4000, spectrum);
+			 }
+						
+			$(function(){
+		      setInterval(function(){
+		        $('#slideshow :first-child').fadeOut()
+		           .next('img').fadeIn()
+		           .end().appendTo('#slideshow');}, 
+		        5000);
+		  });
+		  
 
-		 function spectrum(){
-		    var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-		    $('#logo').animate( { backgroundColor: hue }, 4000);
-				$('.links ul li').animate( {backgroundColor: hue }, 4000);
-				$('.left').animate( {backgroundColor: hue}, 4000);
-				$('.intro').animate()
-		    spectrum();
-		 }
 
 		});
 		
