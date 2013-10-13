@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.color
+//= require jquery-1.10.2.min
+//= require jquery-ui
 //= require twitter/bootstrap
 //= require underscore
 //= require backbone

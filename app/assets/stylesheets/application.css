@@ -213,29 +213,25 @@
     margin: 20px;
 }
 
-.about_info.well {
-   	background-color: rgba(184,130,80,0.3);
+.about_info {
    	border: none;
    	overflow: auto;
     height: 100%;
 }
 
-.exp_info.well {
-    background-color:rgba(179,15,0,0.3);
+.exp_info {
     border: none;
     overflow: auto;
     height: 100%;
 }
 
-.proj_info.well {
-    background-color:rgba(128,82,85,0.3);
+.proj_info {
     border: none;
     overflow: auto;
     height: 100%;
 }
 
-.skills_info.well {
-    background-color:rgba(110,118,122,0.3);
+.skills_info {
     border: none;
     overflow: auto;
     height: 100%;
@@ -387,7 +383,7 @@ strong {
 #slideshow {
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 512px;
 }
 
 #slideshow img {

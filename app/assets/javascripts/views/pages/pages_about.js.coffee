@@ -2,7 +2,7 @@ class SMerchPro.Views.PagesAbout extends Backbone.View
   
   tagName: 'div'
   
-  className: 'well about_info'
+  className: 'about_info'
   
   template: JST['pages/about']
       

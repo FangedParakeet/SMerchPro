@@ -1,10 +1,18 @@
+<script type="text/javascript">
+	$(function(){
+	      setInterval(function(){
+	        $('#slideshow :first-child').fadeOut()
+	           .next('img').fadeIn()
+	           .end().appendTo('#slideshow');}, 
+	        12000);
+	  });
+</script>
 <div class="picsntext">
 	<div class="pics">
-			<img src="/assets/chicago.jpg" alt="An average day in Chicago">
 			<div id="slideshow">
-				<img src="/assets/uchicago campus.jpg" alt="University of Chicago">
-				<img src="/assets/me codeacademy.jpg" alt="Code Academy" id="hidden">
-				<img src="/assets/1871.jpg" alt="1871" id="hidden">
+				<img src="/assets/1871w.png" alt="1871">
+				<img src="/assets/code academyw.png" alt="Code Academy" id="hidden">
+				<img src="/assets/uchicagow.png" alt="UChicago" id="hidden">
 			</div>
 	</div>
 	<div class="text">

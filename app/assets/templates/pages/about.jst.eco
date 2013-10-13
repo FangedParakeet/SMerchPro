@@ -1,3 +1,8 @@
+<div class="pics">
+  <p>
+    <img src="/assets/me mainw.png" alt="Hello">
+  </p>
+</div>
 <div class="text">
   <p class="niet"><span class="italics"><strong>"I live at the foot of my heights: how high are my peaks? No one has told me yet. But I know my valleys well."</strong></span><br />--Friedrich Nietzsche</p>
   <p class="main_body">
@@ -11,10 +16,5 @@
     Essentially I have a passion for learning, facing down challenges, and above all building <strong>beautiful</strong>, <strong>clean</strong>, and <strong>meaningful code</strong>.
     I want to learn more skills so that I can build solutions to solve <strong>big problems</strong>. 
     If you think these are qualities that you relish in a programmer, <strong>please get in touch with me</strong>!
-  </p>
-</div>
-<div class="pics">
-  <p>
-    <img src="/assets/sort of me.png" alt="This is the best picture I have of myself and it's not even in colour">
   </p>
 </div>
