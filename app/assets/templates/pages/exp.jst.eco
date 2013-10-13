@@ -4,7 +4,7 @@
 	        $('#slideshow :first-child').fadeOut()
 	           .next('img').fadeIn()
 	           .end().appendTo('#slideshow');}, 
-	        12000);
+	        16000);
 	  });
 </script>
 <div class="picsntext">
