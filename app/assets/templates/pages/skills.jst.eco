@@ -4,7 +4,7 @@
 	<div class="clear"></div>
 	<div class="image_wrapper">
 			<div class="studio">
-				<img src="/assets/studio.jpg" alt="In studio" width="1100">
+				<img src="/assets/simple machines.png" alt="In studio" width="500">
 			</div>
 			<div class="player">
 				<iframe id="simple" width="300" height="410" style="position: relative; display: block; width: 400px; height: 300px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=1542218114/size=grande3/bgcol=f42525/linkcol=ea3e3e/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://simplemachinesband.bandcamp.com/album/spirit-of-the-shoreland-ep">Spirit of the Shoreland EP by Simple Machines</a></iframe>
