@@ -2,9 +2,9 @@
 	<img src="/assets/tachew.png"></img>
 </div>
 <div class="right">
-	<h3 style="text-align:right">"There are some who live in a dream world and there are some who face reality; and then there are those who turn one into the other."</h1>
-	<h4 style="text-align:right">--Douglas H. Everett</h4>
-	<h2 style="text-align:left; margin-top:30px;">Resourceful web developer for hire.</h3>
-	<h3 style="text-align:center">If you can imagine it, build it.</h1>
+	<p style="text-align:right; font-size: 1.5em; line-height: 1.5em;">"There are some who live in a dream world and there are some who face reality; and then there are those who turn one into the other."</p>
+	<p style="text-align:right">--Douglas H. Everett</p>
+	<p style="text-align:left; margin-top:30px;">Resourceful web developer for hire.</p>
+	<p style="text-align:center">If you can imagine it, build it.</p>
 	<p style="text-align:center"><a id="next">More</a></p>
 </div>

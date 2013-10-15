@@ -25,7 +25,7 @@
 						$('.left').animate( {backgroundColor: hue}, 3000);
 					}
 					if($('#slideshow').length > 0){
-						$('#slideshow').animate( { backgroundColor: hue }, 3000);				    
+						// $('#slideshow').animate( { backgroundColor: hue }, 3000);				    
 					}
 					if($('.studio').length > 0){
 						$('.studio').animate({ backgroundColor: hue}, 3000);
@@ -53,11 +53,12 @@
 				<div class="links"></div>
 			</div>
 			<div class="clear"></div>
-			<div class="clear"></div>
 			<div class="content">
 				<div class="intro"></div>
+				<div class="clear"></div>
 			</div>
 		</div>
+		<!-- End Container -->
 		<div class="footer">
 			<div class="contact">
 				<ul>
@@ -67,12 +68,12 @@
 				</ul>
 				<ul id="second">
 					<li><%= link_to "@fangedparakeet", "http://twitter.com/fangedparakeet", target: 'blank' %></li>
-					<li><%= link_to "Samir Merchant @LinkedIn", "http://www.linkedin.com/pub/samir-merchant/57/538/267", target: 'blank' %></li>
+					<li><%= link_to "@LinkedIn", "http://www.linkedin.com/pub/samir-merchant/57/538/267", target: 'blank' %></li>
 				</ul>
+				<div class="site_info"></div>
 			</div>
-
-			<div class="site_info"></div>
-			<div class="clear"></div>
 		</div>
+		<!-- End footer -->
+		
 </body>
 </html>
