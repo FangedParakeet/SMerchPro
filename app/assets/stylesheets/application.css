@@ -215,6 +215,10 @@
     background-position: left bottom;
 }
 
+.selected {
+    background-position: left bottom !important;
+}
+
 .content {
     width: 65em;
     margin: 0em auto;
