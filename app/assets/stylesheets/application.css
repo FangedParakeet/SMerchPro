@@ -14,7 +14,7 @@
  /*** RESET ***/
 
  @font-face {
-     font-family: "Roboto-Light";
+     font-family: "Roboto-Thin";
      src: url('Roboto-Thin.ttf') format('truetype');
  }
 
@@ -77,14 +77,26 @@
 /*** GLOBAL ***/
 
 .mobile_link  {
-    position: relative;
-    z-index: 1;
-}
-
-.mobile_link img {
     position: absolute;
     top: 0em;
     right: 0em;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+}
+
+
+#mobile_span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('mobilesprite.png') left top no-repeat;
+    top: 0;
+    left: 0;
+}
+
+#mobile_span:hover {
+    background-position: left bottom;
 }
 
 .container {

@@ -42,7 +42,7 @@
 </head>
 <body>
 		<div class="mobile_link">
-			<%= link_to (image_tag 'mobileinvert.png', size: '100x100', onmouseover: "this.src='assets/mobile.png'", onmouseout: "this.src='assets/mobileinvert.png'"), root_url(mobile: "1") %>
+			<a href="<%= root_url(mobile: "1") %>"><span id="mobile_span"><%= image_tag 'empty.gif', size: '100x100' %></span></a>
 		</div>
 		<div class="clear"></div>
 		<div class="container">
