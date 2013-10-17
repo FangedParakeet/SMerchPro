@@ -126,15 +126,15 @@
 
 .links ul li {
     display: inline-block;
+    opacity: 0.8;
     -webkit-transition: all 0.5s ease; 
     -moz-transition: all 0.5s ease; 
-    -o-transition: all 0.5s ease; /*Reflection*/ 
-    opacity: 0.8;
-     -moz-border-radius: 0.31em;
-    -webkit-border-radius: 0.31em;
-    -khtml-border-radius: 0.31em;
-    border-radius: 0.31em;
-    height: 2.25em;
+    -o-transition: all 0.5s ease;    
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 05px;
+    height: 32px;
     margin-right: 0.62em;
 }
 
@@ -149,6 +149,58 @@
 
 .links ul li img {
     height: 2.25em;
+}
+
+#about_li {
+    width: 91.4px;
+}
+
+#about_link {
+    background: url('aboutw_vectorized.png') left top no-repeat;
+    width: 92px;
+    height: 32px;
+}
+
+#about_link:hover {
+    background-position: left bottom;
+}
+
+#background_link {
+    background: url('backgroundw_vectorized.png') left top no-repeat;
+    width: 179px;
+    height: 32px;
+}
+
+#background_link:hover {
+    background-position: left bottom;
+}
+
+#port_li {
+    width: 142.4px;
+}
+
+#port_link {
+    background: url('portfoliow_vectorized.png') left top no-repeat;
+    width: 143px;
+    height: 32px;
+}
+
+#port_link:hover {
+    background-position: left bottom;
+}
+
+#misc_li {
+    width: 78.4px;
+}
+
+#misc_link {
+    background: url('miscw_vectorized.png') left top no-repeat;
+    width: 79px;
+    height: 32px;
+}
+
+#misc_link:hover {
+    background-position: left bottom;
 }
 
 .content {
@@ -253,8 +305,8 @@
     border-radius: 0.9em; 
     float: left;
     display: inline-block;
-    -webkit-box-shadow: .31em .31em .31em #111;
-          box-shadow: .31em .31em .31em #111;
+    -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
     -webkit-transition: all 0.5s ease; 
     -moz-transition: all 0.5s ease; 
     -o-transition: all 0.5s ease;     
@@ -262,8 +314,8 @@
 
 
 .preview:hover {
-    -webkit-box-shadow: .31em .31em .31em #B4ACA7;
-          box-shadow: .31em .31em .31em #B4ACA7;
+    -webkit-box-shadow: 5px 5px 5px #B4ACA7;
+          box-shadow: 5px 5px 5px #B4ACA7;
 }
 
 
@@ -345,8 +397,8 @@ strong {
 }
 
 #simple {
-    -webkit-box-shadow: .31em .31em .31em #000;
-    box-shadow: .31em .31em .31em #000;
+    -webkit-box-shadow: 5px 5px 5px #000;
+    box-shadow: 5px 5px 5px #000;
     background-color:rgba(255,255,255,0.2);
     border-radius: 0.9em;
     padding: 0.5em;

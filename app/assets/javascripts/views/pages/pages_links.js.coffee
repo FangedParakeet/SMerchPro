@@ -5,10 +5,10 @@ class SMerchPro.Views.PagesLinks extends Backbone.View
   template: JST['pages/links']
   
   events:
-    'click #about': 'about'
-    'click #exp': 'exp'
-    'click #proj': 'proj'
-    'click #skills': 'skills'
+    'click #about_link': 'about'
+    'click #background_link': 'exp'
+    'click #port_link': 'proj'
+    'click #misc_link': 'skills'
       
   render: ->
     $(@el).html(@template())
