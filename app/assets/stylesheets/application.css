@@ -188,7 +188,7 @@
 }
 
 #port_li {
-    width: 142.4px;
+    width: 142.2px;
 }
 
 #port_link {
@@ -389,6 +389,13 @@ strong {
 
 #hidden {
     display: none;
+}
+
+#blank {
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: 0;
 }
 
 .image_wrapper {

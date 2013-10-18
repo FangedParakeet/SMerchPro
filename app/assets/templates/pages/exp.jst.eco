@@ -1,13 +1,17 @@
 <script type="text/javascript">
+	if(typeof slideTimer !== 'undefined'){
+		clearInterval(slideTimer);
+	};
 	$(function(){
-	      setInterval(function(){
-	        $('#slideshow :first-child').fadeOut()
+	      slideTimer = setInterval(function(){
+	        $('#slideshow :first-child').fadeOut();
 	           .next('img').fadeIn()
 	           .end().appendTo('#slideshow');}, 
-	        18000);
+	        15000);
 	  });
 </script>
 <div class="picsntext">
+	<!-- Pics start -->
 	<div class="pics">
 			<div id="slideshow">
 				<img src="/assets/1871w.png" alt="1871">
@@ -15,69 +19,75 @@
 				<img src="/assets/uchicagow.png" alt="UChicago" id="hidden">
 			</div>
 	</div>
+	<!-- Pics end -->
+	
+	
+	<!-- Side text start -->
 	<div class="text">
 		<p class="dalai">
 			<span class="italics">
 				<strong>
-					"According to the scriptures, the hells are located a certain distance directly below Bodh Gaya, the place in India where the Buddha achieved enlightenment. But if you were to actually travel that distance, you would end up in the middle of America..."
+					"You have to, at least from a distance, look as if you know what you're doing, and I can manage that."
 				</strong>
 				</span>
-				<br />--His Holiness the Dalai Lama on Midwestern winters
 		</p>
+		<p class="dalai" style="text-align: right">--Morrissey</p>
 		<p class="main_body">
-			Having grown up in <strong>England</strong>, <strong>Belgium</strong>, and <strong>India</strong> I not only have quite an international background, but also a rather mangled accent.
-			Education drew me to Chicago a little over four years ago, where I haplessly pursued & earned a degree in economics.
-			Two years in I received my first exposure to computer science, completing an introductory course to fulfill a maths requirement and quickly I realised <strong>I was in the wrong field</strong>.
-		</p>
-		<p class="main_body">
-			From then on I completed an intermediate course in <strong>C++</strong> and, through a roommate's recommendation, got involved with <strong><a href="http://codeacademy.org" target="blank">Code Academy</a></strong> (now merged with <strong><a href="http://37signals.com" target="blank">37signals</a></strong> and rechristened <strong><a href="http://starterleague.com" target="blank">Starter League</a></strong>).
-			Upon <strong>graduating from the University of Chicago</strong> with <strong>college honours</strong> in March of 2012, I completed a <strong>three-month Ruby on Rails web development course</strong> at Code Academy, made a lot of good friends, and built some cool apps. I was asked to return as <strong>a mentor</strong> for the summer class and gladly obliged. Since then I have remained based in Chicago working on pet projects and looking for opportunities. Though there's <strong>nothing like the wind in your hair in Chicago</strong>, I am definitely <strong>open to relocation</strong>.
-		</p>
-		<p class="main_body">
-			Having <strong>a year's experience working with Rails and Ruby</strong>, it is definitely my strongest language. However, I do have <strong>six months experience in Javascript</strong> among other languages that I am quite familiar with. Here is a list of languages and technologies that I am comfortable with:
+			<span class="dalai"><strong>Education</strong></span>
+				<ul>
+					<li>Bachelor of Sciences, Economics, <strong>University of Chicago</strong> '12</li>
+					<li><strong>Code Academy/Starter League</strong> (Student & Mentor) '12</li>
+					<li>Post-Graduate Program in Information Technology, <strong>National Institute of Information Technology (NIIT)</strong> '13</li>
+				</ul>
 		</p>
 	</div>
-</div>
-<div class="skills_list">
-	<p class="main_body">
-		<span class="dalai"><strong>Languages</strong></span>
-		<ul>
-			<li>Ruby</li>
-			<li>Javascript</li>
-			<li>jQuery</li>
-			<li>Coffeescript</li>
-			<li>HTML</li>
-			<li>C++</li>
-			<li>Dr. Racket <strong>(They taught me this at UChicago: I don't know why and I wouldn't feel left out if inevitably you haven't heard of it either)</strong></li>
-		</ul>
-	</p>
-</div>
-<div class="skills_list">
-	<p class="main_body">
-		<span class="dalai"><strong>Technologies</strong></span>
-		<ul>
-			<li>Rails</li>
-			<li>AJAX</li>
-			<li>Amazon EC2/S3</li>
-			<li>Backbone.js</li>
-			<li>Git</li>
-			<li>Heroku</li>
-			<li>Unix</li>
-		</ul>
-	</p>
-</div>
-<div class="skills_list">
-	<p class="main_body">
-		<span class="dalai"><strong>APIs</strong></span>
-		<ul>
-			<li>Facebook</li>
-			<li>Twitter</li>
-			<li>YouTube</li>
-			<li>Vimeo</li>
-			<li>Soundcloud</li>
-			<li>Google Maps</li>
-			<li>Reddit</li>
-			<li>GeoNames</li>
-		</ul>
-	</p>
+	<!-- Side text end -->
+	<div class="clear"></div>
+	<!-- Bottom text start -->
+	<div class="skills_list">
+		<p class="main_body">
+			<span class="dalai"><strong>Languages</strong></span>
+			<ul>
+				<li>Ruby</li>
+				<li>Javascript</li>
+				<li>jQuery</li>
+				<li>Coffeescript</li>
+				<li>HTML</li>
+				<li>C++</li>
+				<li>Dr. Racket <strong>(They taught me this at UChicago: I don't know why and I wouldn't feel left out if inevitably you haven't heard of it either)</strong></li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="skills_list">
+		<p class="main_body">
+			<span class="dalai"><strong>Technologies</strong></span>
+			<ul>
+				<li>Rails</li>
+				<li>AJAX</li>
+				<li>Amazon EC2/S3</li>
+				<li>Backbone.js</li>
+				<li>Git</li>
+				<li>Heroku</li>
+				<li>Unix</li>
+			</ul>
+		</p>
+	</div>
+	
+	<div class="skills_list">
+		<p class="main_body">
+			<span class="dalai"><strong>APIs</strong></span>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>YouTube</li>
+				<li>Vimeo</li>
+				<li>Soundcloud</li>
+				<li>Google Maps</li>
+				<li>Reddit</li>
+				<li>GeoNames</li>
+			</ul>
+		</p>
+	</div>
+	<!-- Bottom text end -->
 </div>
