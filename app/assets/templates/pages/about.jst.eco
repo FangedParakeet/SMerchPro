@@ -11,7 +11,7 @@
 <div id="about_body">
 	<div class="mainbar">
 		<p class="dalai">
-	    I am <span class="dalai strong">a coder</span>, <span class="dalai strong">a musician</span>, <span class="dalai strong">a University of Chicago alumnus</span>, and above all <span class="dalai strong">a builder</span>.
+	    I am a <span class="dalai strong">coder</span>, a <span class="dalai strong">musician</span>, a <span class="dalai strong">University of Chicago alumnus</span>, and above all a <span class="dalai strong">builder</span>.
 		</p>
 		<p class="main_body">
 	    I have <span class="strong">two years of coding experience</span>, a statistics-heavy<span class="strong"> economics degree</span>, and a lot of determination behind me.
@@ -33,6 +33,7 @@
 			<li>Manage front-end</li>
 			<li>Design icons</li>
 			<li>Enhance user interface</li>
+			<li>Launch websites</li>
 		</ul>
 	</div>
 </div>
