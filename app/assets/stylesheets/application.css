@@ -248,6 +248,8 @@
     float: left;
 }
 
+
+
 #next:hover {
     cursor: pointer;
 }
@@ -309,9 +311,13 @@
     padding-top: 1.25em;
 }
 
+#edu li {
+    margin-top: 1em;
+}
+
 .pair {
     width: 100%;
-    margin: 0em auto;
+    margin: 3.25em auto;
     padding: 1.25em 0em 1.25em 0em;
 }
 
@@ -320,6 +326,7 @@
     height: 100%;
     border-radius: 0.9em; 
     float: left;
+    margin-top: 1.5em;
     display: inline-block;
     -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px #111;
@@ -328,7 +335,6 @@
     -o-transition: all 0.5s ease;     
 }
 
-
 .preview:hover {
     -webkit-box-shadow: 5px 5px 5px #B4ACA7;
           box-shadow: 5px 5px 5px #B4ACA7;
@@ -336,7 +342,7 @@
 
 
 .descr {
-    width: 40%;
+    width: 35%;
     height: 100%;
     float: left;
     
@@ -347,14 +353,33 @@
     font-style: italic;
 }
 
-.niet {
+.adams {
+    font-size: 1.8em;
+    line-height: 120%;
+}
+
+.moz {
     font-size: 1.8em;
     line-height: 140%;
 }
 
+.gib {
+    font-size: 1.8em;
+    line-height: 120%;
+}
+
+.wilde {
+    font-size: 1.8em;
+    line-height: 120%;
+}
+
 .dalai {
-    font-size: 1.6em;
+    font-size: 1.4em;
     line-height: 160%;
+}
+
+.dalai a {
+    font-size: 1.6em;
 }
 
 .port {
@@ -370,8 +395,30 @@
     line-height: 130%;
 }
 
-strong {
-    color: #8A8A8A;
+#about_body {
+    margin: 0em auto;
+    width: 100%;
+}
+
+
+#about_body .mainbar {
+    float: left;
+    width: 70%;
+}
+
+#about_body .sidebar {
+    float: left;
+    width: 30%;
+}
+
+#about_body .sidebar ul li {
+    text-align: right;
+    color: orange;
+    font-size: 1.2em;
+}
+
+.strong {
+    color: #1A1A1A;
 }
 
 #slideshow {

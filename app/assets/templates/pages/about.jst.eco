@@ -4,19 +4,35 @@
   </p>
 </div>
 <div class="text">
-  <p class="niet"><span class="italics"><strong>"There is an art, or rather a knack to flying. The knack lies in learning how to throw yourself at the ground and miss. The first part is easy. All it requires is simply the ability to throw yourself forward with all your weight, and the willingness not to mind that it's going to hurt. Clearly, it is this second part, the missing, which presents the difficulties."</strong></span></p>
-<p class="niet" style="text-align: right">--Douglas Adams</p>
+  <p class="adams"><span class="italics strong">"There is an art, or rather a knack to flying. The knack lies in learning how to throw yourself at the ground and miss. The first part is easy. All it requires is simply the ability to throw yourself forward with all your weight, and the willingness not to mind that it's going to hurt. Clearly, it is this second part, the missing, which presents the difficulties."</span></p>
+<p class="adams" style="text-align: right">--Douglas Adams</p>
 </div>
 <div class="clear"></div>
-  <p class="main_body">
-    I am <strong>a coder</strong>, <strong>a musician</strong>, <strong>a University of Chicago alumnus</strong>, and above all <strong>a builder</strong>. 
-    With <strong>two years of coding experience</strong>, <strong>an economics degree</strong>, and a lot of determination I am venturing into the wilderness, hunting for <strong>professional experience</strong> to continue my development.
-    I see myself as more of <strong>a back-end developer</strong>, in that I love getting stuck into code and controllers, my eyes lighting up when I see unconstructed model relationships.
-    However, as any developer knows, it's impossible not to let one get many fingers stuck into many pies, so I have over time developed strong front-end skills as well, becoming well-versed in anything from <strong>CSS</strong> through <strong>AJAX</strong>.
-    I had to do everything here after all...
-  </p>
-  <p class="main_body">
-    Essentially I have a passion for learning, facing down challenges, and above all building <strong>beautiful</strong>, <strong>clean</strong>, and <strong>meaningful code</strong>.
-    I want to learn more skills so that I can build solutions to solve <strong>big problems</strong>. 
-    If you think these are qualities that you relish in a programmer, <strong>please get in touch with me</strong>!
-  </p>
+<div id="about_body">
+	<div class="mainbar">
+		<p class="dalai">
+	    I am <span class="dalai strong">a coder</span>, <span class="dalai strong">a musician</span>, <span class="dalai strong">a University of Chicago alumnus</span>, and above all <span class="dalai strong">a builder</span>.
+		</p>
+		<p class="main_body">
+	    I have <span class="strong">two years of coding experience</span>, a statistics-heavy<span class="strong"> economics degree</span>, and a lot of determination behind me.
+		</p>
+		<p class="main_body">
+	    Although I am <span class="strong">a back-end developer</span> by choice, I am a <span class="strong">full-stack developer</span> by necessity. Striving to build <span class="strong">original</span>, <span class="strong">simple</span>, and <span class="strong">attractive</span> applications, I firmly believe that if you think it should be possible, <span class="strong">it can be</span>.
+	  </p>
+	</div>
+	<div class="sidebar">
+		<p class="main_body italics dalai">
+			<span class="strong dalai">Need help</span>? I can...
+	  </p>
+		<ul>
+			<li>Create algorithms</li>
+			<li>Map applications</li>
+			<li>Develop models</li>
+			<li>Manage database relationships</li>
+			<li>Manage server requests</li>
+			<li>Manage front-end</li>
+			<li>Design icons</li>
+			<li>Enhance user interface</li>
+		</ul>
+	</div>
+</div>

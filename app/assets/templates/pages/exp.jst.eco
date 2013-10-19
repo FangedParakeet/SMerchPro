@@ -4,7 +4,7 @@
 	};
 	$(function(){
 	      slideTimer = setInterval(function(){
-	        $('#slideshow :first-child').fadeOut();
+	        $('#slideshow :first-child').fadeOut()
 	           .next('img').fadeIn()
 	           .end().appendTo('#slideshow');}, 
 	        15000);
@@ -24,20 +24,18 @@
 	
 	<!-- Side text start -->
 	<div class="text">
-		<p class="dalai">
-			<span class="italics">
-				<strong>
+		<p class="moz">
+			<span class="italics strong">
 					"You have to, at least from a distance, look as if you know what you're doing, and I can manage that."
-				</strong>
-				</span>
+			</span>
 		</p>
-		<p class="dalai" style="text-align: right">--Morrissey</p>
+		<p class="moz" style="text-align: right">--Morrissey</p>
 		<p class="main_body">
-			<span class="dalai"><strong>Education</strong></span>
-				<ul>
-					<li>Bachelor of Sciences, Economics, <strong>University of Chicago</strong> '12</li>
-					<li><strong>Code Academy/Starter League</strong> (Student & Mentor) '12</li>
-					<li>Post-Graduate Program in Information Technology, <strong>National Institute of Information Technology (NIIT)</strong> '13</li>
+			<span class="dalai strong">Education</span>
+				<ul id="edu">
+					<li>Bachelor of Sciences, Economics, <span class="strong">University of Chicago</span> '12</li>
+					<li><span class="strong">Code Academy/Starter League</span> (Student & Mentor) '12</li>
+					<li>Post-Graduate Program in Information Technology, <span class="strong">National Institute of Information Technology (NIIT)</span>, Mumbai '13</li>
 				</ul>
 		</p>
 	</div>
@@ -46,37 +44,44 @@
 	<!-- Bottom text start -->
 	<div class="skills_list">
 		<p class="main_body">
-			<span class="dalai"><strong>Languages</strong></span>
+			<span class="dalai strong">Languages</span>
 			<ul>
 				<li>Ruby</li>
 				<li>Javascript</li>
 				<li>jQuery</li>
 				<li>Coffeescript</li>
-				<li>HTML</li>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>SQL</li>
+				<li>C#</li>
 				<li>C++</li>
-				<li>Dr. Racket <strong>(They taught me this at UChicago: I don't know why and I wouldn't feel left out if inevitably you haven't heard of it either)</strong></li>
+				<li>Racket</li>
 			</ul>
 		</p>
 	</div>
 	
 	<div class="skills_list">
 		<p class="main_body">
-			<span class="dalai"><strong>Technologies</strong></span>
+			<span class="dalai strong">Technologies & Tools</span>
 			<ul>
 				<li>Rails</li>
 				<li>AJAX</li>
 				<li>Amazon EC2/S3</li>
 				<li>Backbone.js</li>
+				<li>Twitter Bootstrap</li>
 				<li>Git</li>
 				<li>Heroku</li>
 				<li>Unix</li>
+				<li>Microsoft SQL Server</li>
+				<li>GIMP/Adobe Photoshop</li>
+				<li>MS Office</li>
 			</ul>
 		</p>
 	</div>
 	
 	<div class="skills_list">
 		<p class="main_body">
-			<span class="dalai"><strong>APIs</strong></span>
+			<span class="dalai strong">APIs</span>
 			<ul>
 				<li>Facebook</li>
 				<li>Twitter</li>
