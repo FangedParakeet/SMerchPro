@@ -1318,7 +1318,7 @@ body {
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: black;
+  color: white;
   text-shadow: #bfbfbf 0 1px 0;
 }
 /* line 71, ../scss/include/_skeleton.scss */
@@ -1357,14 +1357,14 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background-image: none;
-  background-color: gray;
+  background-color: black;
 }
 /* line 107, ../scss/include/_skeleton.scss */
 #jqt .button.active, #jqt .back.active, #jqt .cancel.active, #jqt .add.active {
   border-color: #404040;
   background-image: none;
-  background-color: #737373;
-  color: white;
+  background-color: white;
+  color: black;
   text-shadow: #595959 0 -1px 0;
 }
 /* line 114, ../scss/include/_skeleton.scss */
@@ -1387,7 +1387,7 @@ body {
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
   background-image: none;
-  background-color: gray;
+  background-color: black;
   background-size: 100% 98%;
   -webkit-border-radius: 0 0 0 2px;
   border-radius: 0 0 0 2px;
@@ -1409,20 +1409,21 @@ body {
 /* line 157, ../scss/include/_skeleton.scss */
 #jqt .back.active:after {
   background-image: none;
-  background-color: #737373;
+  background-color: white;
 }
 /* line 160, ../scss/include/_skeleton.scss */
 #jqt .back.active:before {
   background-color: #404040;
 }
 /* line 166, ../scss/include/_skeleton.scss */
-#jqt .blueButton {
-  background-image: #2f7ce3, flat;
+#jqt .blackButton {
+  background-image: #000, flat;
+  background-color: #000;
   color: white;
-  text-shadow: #1a63c5 0 -1px 0;
+  text-shadow: #C3BBC5 0 -1px 0;
 }
 /* line 170, ../scss/include/_skeleton.scss */
-#jqt .whiteButton, #jqt .grayButton, #jqt .redButton, #jqt .blueButton, #jqt .greenButton {
+#jqt .whiteButton, #jqt .grayButton, #jqt .redButton, #jqt .blackButton, #jqt .greenButton {
   display: block;
   font-size: 20px;
   font-weight: bold;
@@ -1436,10 +1437,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px, rgba(0, 0, 0, 0.4) 0 0 0 5px, rgba(255, 255, 255, 0.3) 0 1px 0 5px;
 }
 /* line 185, ../scss/include/_skeleton.scss */
-#jqt .whiteButton.active, #jqt .whiteButton:active, #jqt .grayButton.active, #jqt .grayButton:active, #jqt .redButton.active, #jqt .redButton:active, #jqt .blueButton.active, #jqt .blueButton:active, #jqt .greenButton.active, #jqt .greenButton:active {
+#jqt .whiteButton.active, #jqt .whiteButton:active, #jqt .grayButton.active, #jqt .grayButton:active, #jqt .redButton.active, #jqt .redButton:active, #jqt .blackButton.active, #jqt .blueButton:active, #jqt .greenButton.active, #jqt .greenButton:active {
   background-image: none;
-  background-color: #3c8101;
-  color: white;
+  background-color: white;
+  color: black;
   text-shadow: #244f00 0 -1px 0;
 }
 /* line 191, ../scss/include/_skeleton.scss */
@@ -1496,7 +1497,7 @@ body {
 }
 /* line 231, ../scss/include/_skeleton.scss */
 #jqt ul, #jqt ul.individual li {
-  background-color: #cccccc;
+  background-color: white;
   color: #4d4d4d;
   text-shadow: #e6e6e6 0 1px 0;
   border: 1px solid #a6a6a6;
@@ -1532,7 +1533,7 @@ body {
 /* line 265, ../scss/include/_skeleton.scss */
 #jqt ul li a.active {
   background-image: none;
-  background-color: #53b401;
+  background-color: black;
   -webkit-box-shadow: #5cc801 0 1px 0px inset;
   box-shadow: #5cc801 0 1px 0px inset;
   color: white;
@@ -1540,12 +1541,12 @@ body {
 }
 /* line 270, ../scss/include/_skeleton.scss */
 #jqt ul li a.active small {
-  color: #a0fe50;
+  color: #FEF7FB;
   text-shadow: black 0 -1px 0;
 }
 /* line 271, ../scss/include/_skeleton.scss */
 #jqt ul li a.active small.counter {
-  background-color: #306801;
+  background-color: #656168;
 }
 /* line 280, ../scss/include/_skeleton.scss */
 #jqt ul li small {
@@ -1865,9 +1866,23 @@ body {
 
 /* line 8, ../scss/vanilla.scss */
 #jqt > * {
-  background-color: #cccccc;
+  background-color: #FFF;
 }
 /* line 12, ../scss/vanilla.scss */
 #jqt .toolbar {
-  background-color: #a6a6a6;
+  background-color: #A6A6A6;
+}
+
+#about_this p a {
+    color: #4689FF;
+}
+
+#portfolio .scroll ul li p a {
+    color: #4689FF;
+}
+
+.li_pics {
+    width:320px;
+    margin: 0px auto;
+    
 }

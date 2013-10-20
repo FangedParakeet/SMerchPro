@@ -32,7 +32,7 @@
 		</div>
 		<div class="descr">
 			<p class="dalai strong"><a href="http://subredditshuffler.herokuapp.com" target="blank">Subreddit Shuffler</a></p>
-			<p class="main_body">Audio & video content mixer for <a href="http://reddit.com" target="blank">Reddit</a> Subreddits</p>
+			<p class="main_body">Audio & video content mixer for <a href="http://reddit.com" target="blank">Reddit</a> Subreddits.</p>
 			<p class="main_body"><span class="strong">Ruby on Rails</span> app combining <span class="strong">Javascript</span>, <span class="strong">AJAX</span>, <span class="strong">jQuery</span>, and YouTube's own <span class="strong">JS/SWFObject API</span> on the front-end to display content via <span class="strong">Reddit's API</span>. Hosting via <span class="strong">Heroku</span>.</p>
 		</div>
 		<div class="clear"></div>
