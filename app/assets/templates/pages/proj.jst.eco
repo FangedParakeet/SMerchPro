@@ -10,7 +10,7 @@
 			<p class="dalai strong"><a href="http://sinistereo.fm" target="blank">Sinistereo</a></p>
 			<p class="main_body">Music streaming app for indie bands and music connoisseurs.</p>
 			<p class="main_body"><span class="strong">Ruby on Rails</span> app with a client-side <span class="strong">Javascript</span> and <span class="strong">AJAX</span> interface. Hosted via <span class="strong">Heroku</span> with storage on <span class="strong">Amazon's S3 cloud</span>.</p>
-			<p class="main_body">Live, but not fully active at <a href="http://sinistereo.fm" target="blank">sinistereo.fm</a></p>
+			<p class="main_body">Live, but not fully active at <a href="http://sinistereo.herokuapp.com" target="blank">sinistereo.fm</a></p>
 		</div>
 		<div class="clear"></div>
 	</div>
