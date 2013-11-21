@@ -16,15 +16,15 @@
 	</div>
 	<div class="pair">
 		<div class="descr">
-			<p class="dalai strong"><a href="http://subredditshuffler.herokuapp.com" target="blank">Subreddit Shuffler</a></p>
+			<p class="dalai strong"><a href="http://subredditshuffler.com" target="blank">Subreddit Shuffler</a></p>
 			<p class="main_body">Audio & video content mixer for <a href="http://reddit.com" target="blank">Reddit</a> Subreddits.</p>
 			<p class="main_body"><span class="strong">Ruby on Rails</span> app combining <span class="strong">Javascript</span>, <span class="strong">AJAX</span>, <span class="strong">jQuery</span>, and YouTube's own <span class="strong">JS/SWFObject API</span> on the front-end to display content via <span class="strong">Reddit's API</span>. Hosting via <span class="strong">Heroku</span>.</p>
 		</div>
 		<div class="preview" id="subreddit">
-			<a href="http://subredditshuffler.herokuapp.com" target="blank"><img src="/assets/shuffler2.png" alt="Subreddit Shuffler"></a>
+			<a href="http://subredditshuffler.com" target="blank"><img src="/assets/shuffler2.png" alt="Subreddit Shuffler"></a>
 		</div>
 		<div class="clear"></div>
-		<p class="main_body" style="margin-top:0em">Live at <a href="subredditshuffler.herokuapp.com" target="blank">subredditshuffler.herokuapp.com</a>. Currently functional for YouTube, Vimeo, & Soundcloud.</p>
+		<p class="main_body" style="margin-top:0em">Live at <a href="subredditshuffler.com" target="blank">subredditshuffler.com</a>. Currently functional for YouTube, Vimeo, & Soundcloud.</p>
 	</div>
 	<div class="pair">
 		<div class="preview" id="hashpage">
