@@ -29,10 +29,11 @@ end
 
 gem 'jquery-rails'
 
-gem 'backbone-on-rails'
-
+gem 'therubyracer'
+gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 
+gem 'backbone-on-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

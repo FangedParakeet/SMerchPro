@@ -12,10 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require jquery.color
 //= require jquery-1.10.2.min
 //= require jquery-ui
-//= require twitter/bootstrap
 //= require underscore
 //= require backbone
 //= require s_merch_pro
@@ -25,4 +25,3 @@
 //= require_tree ./views
 //= require_tree ./routers
 //= require_tree .
-
